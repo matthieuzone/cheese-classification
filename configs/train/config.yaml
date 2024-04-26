@@ -1,5 +1,5 @@
 defaults:
-  - model: dinov2
+  - model: mix
   - dataset: simple_prompts
   - optim: adamw
   - loss_fn: cross_entropy
