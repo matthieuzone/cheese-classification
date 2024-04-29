@@ -1,8 +1,10 @@
-_target_: data.dataset_filter.resnet_classifier.ResNetClassifier
+_target_: data.dataset_filter.resnet_classifier.Classifier
 
-model: resnet
+defaults:
+  - transforms: simple
+  - model: resnet
+
 batch_size: ${batch_size}
-transforms: simple
 input_dir: ${data_dir}/train/simple_prompts
 output_dir: ${data_dir}/train/simple_prompts_filtered
 true_dir: ${data_dir}/val
