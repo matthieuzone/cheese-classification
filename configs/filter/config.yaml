@@ -1,0 +1,15 @@
+defaults:
+  - critere : resnet_classifier
+
+data_dir: ${root_dir}/dataset
+root_dir:  ${hydra:runtime.cwd}
+batch_size: 64
+
+labels_file: ${root_dir}/list_of_cheese.txt
+experiment_name: filter1
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
+  job:
+    chdir: true

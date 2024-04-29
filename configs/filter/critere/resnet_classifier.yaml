@@ -1,0 +1,12 @@
+_target_: data.dataset_filter.resnet_classifier.ResNetClassifier
+batch_size: ${batch_size}
+transforms: simple
+input_dir: ${data_dir}/train/simple_prompts
+output_dir: ${data_dir}/train/simple_prompts_filtered
+true_dir: ${data_dir}/val
+treshold: 0.5
+from_checkpoint: false
+num_epochs: 10
+model_path: ${root_dir}/checkpoints/${experiment_name}.pt
+
+num_images_per_label: 400
