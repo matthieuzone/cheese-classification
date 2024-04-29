@@ -1,0 +1,3 @@
+_target_: data.dataset_filter.resnet_classifier.ResNetClassifier
+num_classes: 2
+frozen : true

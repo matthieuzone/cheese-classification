@@ -1,4 +1,6 @@
 _target_: data.dataset_filter.resnet_classifier.ResNetClassifier
+
+model: resnet
 batch_size: ${batch_size}
 transforms: simple
 input_dir: ${data_dir}/train/simple_prompts

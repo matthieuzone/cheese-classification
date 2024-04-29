@@ -1,5 +1,5 @@
 defaults:
-  - critere : resnet_classifier
+  - critere : classifier
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}

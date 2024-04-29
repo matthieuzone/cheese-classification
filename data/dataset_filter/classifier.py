@@ -5,11 +5,11 @@ import torch
 from itertools import cycle
 from tqdm import tqdm
 
-class ResNetClassifier(DatasetFilterBase):
+class Classifier(DatasetFilterBase):
 
-    def __init__(self, batch_size=64, transform=[], input_dir="dataset/train", output_dir="dataset/train", true_dir="dataset/val", treshold = 0.5, from_checkpoint = False, num_epochs = 10, model_path="checkpoints/resnet_classifier.pt"):
+    def __init__(self, model, batch_size=64, transform=[], input_dir="dataset/train", output_dir="dataset/train", true_dir="dataset/val", treshold = 0.5, from_checkpoint = False, num_epochs = 10, model_path="checkpoints/resnet_classifier.pt"):
         super().__init__(batch_size, transform, input_dir, output_dir)
-        self.model = ResNetFinetune(2, frozen=True)
+        self.model = model
         self.transform = transform
         self.treshold = treshold
         self.true_dir = true_dir
