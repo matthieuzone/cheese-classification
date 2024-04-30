@@ -5,7 +5,7 @@ import torch
 from itertools import cycle
 from tqdm import tqdm
 
-class Classifier(DatasetFilterBase):
+class ClassifierFilter(DatasetFilterBase):
 
     def __init__(self, model, batch_size=64, transform=[], input_dir="dataset/train", output_dir="dataset/train", true_dir="dataset/val", treshold = 0.5, from_checkpoint = False, num_epochs = 10, model_path="checkpoints/resnet_classifier.pt"):
         super().__init__(batch_size, transform, input_dir, output_dir)
@@ -34,7 +34,6 @@ class Classifier(DatasetFilterBase):
         gen_dataloader = torch.utils.data.DataLoader(gen_data, batch_size=self.batch_size, shuffle=True)
         true_data = torchvision.datasets.ImageFolder(self.true_dir, transform=self.transform)
         true_dataloader = torch.utils.data.DataLoader(true_data, batch_size=self.batch_size, shuffle=True)
-
         optimizer = torch.optim.Adam(self.model.parameters(), lr=1e-3)
         criterion = nn.CrossEntropyLoss()
 

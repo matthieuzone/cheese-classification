@@ -1,3 +1,3 @@
-_target_: data.dataset_filter.resnet_classifier.ResNetClassifier
+_target_: models.resnet.ResNetFinetune
 num_classes: 2
 frozen : true
