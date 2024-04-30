@@ -13,7 +13,7 @@ class DatasetFilterBase:
         self.transform = transform
     
     def filter(self, labels_names):
-        dataset = ImageFolder(self.input_dir, transform=self.transform)
+        dataset = ImageFolder(self.input_dir, transform=torchvision.transform.ToTensor())
         dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
 
         image_ids = [0 for label in labels_names]
