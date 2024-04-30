@@ -30,7 +30,6 @@ class DatasetFilterBase:
         for name in labels_names:
             (output_path / name).mkdir(parents = True, exist_ok = True)
         for i, image in enumerate(images):
-            image = topil(image)
             image.save(output_path / labels_names[labels_nums[i]] / f"{str(image_ids[labels_nums[i]]).zfill(6)}.jpg")
             image_ids[labels_nums[i]] += 1
 
