@@ -1,1 +1,13 @@
 trouver des caractéristiques spécifiques à chaque fromage à mettre dans les prompts
+
+creer des promps modulables avec:
+    type de cheese
+    point de vue
+    contexte (ce qu'il y a autour)
+    adjectif : vieux/jeune/cremeux etc..
+
+savoir si il y a des trucs utiles dans les modèles fine tunable azure (tuto dans moodle)
+
+fine tuner StableDIffusion ou autre
+
+word/text embedding ou jsp trop quoi

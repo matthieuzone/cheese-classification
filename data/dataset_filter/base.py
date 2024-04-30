@@ -14,7 +14,7 @@ class DatasetFilterBase:
     
     def filter(self, labels_names):
         dataset = ImageFolder(self.input_dir, transform=self.transform)
-        real_dataset = ImageFolder(self.input_dir)
+        real_dataset = ImageFolder(self.input_dir, transform=torchvision.transforms.ToTensor())
         dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
         real_dataloader = DataLoader(real_dataset, batch_size=self.batch_size, shuffle=False)
 
@@ -30,6 +30,7 @@ class DatasetFilterBase:
         for name in labels_names:
             (output_path / name).mkdir(parents = True, exist_ok = True)
         for i, image in enumerate(images):
+            image = torchvision.transforms.ToPILImage()(image)
             image.save(output_path / labels_names[labels_nums[i]] / f"{str(image_ids[labels_nums[i]]).zfill(6)}.jpg")
             image_ids[labels_nums[i]] += 1
 
