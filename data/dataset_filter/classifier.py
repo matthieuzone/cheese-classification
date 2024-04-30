@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch
 from itertools import cycle
 from tqdm import tqdm
+from torchvision.transforms import Compose, ToTensor
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -13,11 +14,12 @@ class ClassifierFilter(DatasetFilterBase):
         super().__init__(batch_size, transform, input_dir, output_dir)
         self.model = model
         self.model.to(device)
-        self.transform = transform
+        self.transform = Compose([ToTensor(), transform])
         self.treshold = treshold
         self.true_dir = true_dir
         if from_checkpoint:
             self.model.load_state_dict(torch.load(model_path))
+
         else:
             self.train(num_epochs)
             torch.save(self.model.state_dict(), model_path)

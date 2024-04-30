@@ -1,0 +1,4 @@
+_target_: models.dinov2.DinoV2Finetune
+num_classes: 2
+frozen: True
+unfreeze_last_layer: True

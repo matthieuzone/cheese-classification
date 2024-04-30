@@ -1,7 +1,7 @@
 
 defaults:
   - transform: simple
-  - model: resnet
+  - model: dinov2
 
 _target_: data.dataset_filter.classifier.ClassifierFilter
 
@@ -10,6 +10,6 @@ input_dir: ${input_dir}
 output_dir: ${output_dir}
 true_dir: ${data_dir}/val
 treshold: 0.1
-from_checkpoint: true
-num_epochs: 10
+from_checkpoint: false
+num_epochs: 30
 model_path: ${root_dir}/checkpoints/${experiment_name}.pt
