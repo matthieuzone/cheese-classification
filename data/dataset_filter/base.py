@@ -14,14 +14,12 @@ class DatasetFilterBase:
     
     def filter(self, labels_names):
         dataset = ImageFolder(self.input_dir, transform=self.transform)
-        real_dataset = ImageFolder(self.input_dir, transform=torchvision.transforms.ToTensor())
         dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
-        real_dataloader = DataLoader(real_dataset, batch_size=self.batch_size, shuffle=False)
 
         image_ids = [0 for label in labels_names]
-        for (x, y), (img, _) in tqdm(zip(dataloader, real_dataloader)):
+        for x, y in tqdm(dataloader):
             r = self.critere(x).to('cpu')
-            img = img[r]
+            x = x[r]
             y = y[r]
             self.save_images(x, labels_names, y, image_ids)
     
