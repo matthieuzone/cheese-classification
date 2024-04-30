@@ -3,10 +3,16 @@ defaults:
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
+
 batch_size: 64
 
+input_name: simple_prompts
+output_name: simple_prompts_filterd
+experiment_name: filter_${input_name}
+
+input_dir: ${data_dir}/train/${input_name}
+output_dir: ${data_dir}/train/${output_name}
 labels_file: ${root_dir}/list_of_cheese.txt
-experiment_name: filter1
 
 hydra:
   run:

@@ -6,8 +6,8 @@ defaults:
 _target_: data.dataset_filter.classifier.ClassifierFilter
 
 batch_size: ${batch_size}
-input_dir: ${data_dir}/train/simple_prompts
-output_dir: ${data_dir}/train/simple_prompts_filtered
+input_dir: ${input_dir}
+output_dir: ${output_dir}
 true_dir: ${data_dir}/val
 treshold: 0.1
 from_checkpoint: false

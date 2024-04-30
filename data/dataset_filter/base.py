@@ -2,7 +2,7 @@ from pathlib import Path
 from tqdm import tqdm
 from torchvision.datasets import ImageFolder
 from torch.utils.data import DataLoader
-import torchvision
+import torchvision.transforms
 
 class DatasetFilterBase:
 
@@ -13,21 +13,26 @@ class DatasetFilterBase:
         self.transform = transform
     
     def filter(self, labels_names):
-        dataset = ImageFolder(self.input_dir, transform=torchvision.ToTensor())
+        dataset = ImageFolder(self.input_dir, transform=self.transform)
+        real_dataset = ImageFolder(self.input_dir)
         dataloader = DataLoader(dataset, batch_size=self.batch_size, shuffle=False)
+        real_dataloader = DataLoader(real_dataset, batch_size=self.batch_size, shuffle=False)
 
-        for label in labels_names:
-            image_id_0 = 0
-            for x, _ in tqdm(dataloader):
-                x = x[self.critere(x)]
-                self.save_images(x, label, image_id_0)
-                image_id_0 += len(x)
+        image_ids = [0 for label in labels_names]
+        for (x, y), (img, _) in tqdm(zip(dataloader, real_dataloader)):
+            r = self.critere(x).to('cpu')
+            img = img[r]
+            y = y[r]
+            self.save_images(x, labels_names, y, image_ids)
     
-    def save_images(self, images, label, image_id_0):
-        output_path = Path(self.output_dir) / label
-        output_path.mkdir(parents=True, exist_ok=True)
+    def save_images(self, images, labels_names, labels_nums, image_ids):
+        output_path = Path(self.output_dir)
+        for name in labels_names:
+            (output_path / name).mkdir(parents = True, exist_ok = True)
         for i, image in enumerate(images):
-            image.save(output_path / f"{str(image_id_0 + i).zfill(6)}.jpg")
+            image = topil(image)
+            image.save(output_path / labels_names[labels_nums[i]] / f"{str(image_ids[labels_nums[i]]).zfill(6)}.jpg")
+            image_ids[labels_nums[i]] += 1
 
     def critere(self, x):
         return NotImplementedError

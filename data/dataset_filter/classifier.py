@@ -23,14 +23,15 @@ class ClassifierFilter(DatasetFilterBase):
     def critere(self, x):
         with torch.no_grad():
             x = self.transform(x)
+            x = x.to(self.device)
             y = self.model(x)
             y = torch.softmax(y, dim=1)
             return (y[:, 1] > self.treshold).squeeze()
 
     def train(self, num_epochs=10):
 
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.model.to(device)
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model.to(self.device)
 
         self.model.train()
         gen_data = torchvision.datasets.ImageFolder(self.input_dir, transform=self.transform)
@@ -42,7 +43,7 @@ class ClassifierFilter(DatasetFilterBase):
 
         for _ in tqdm(range(num_epochs)):
             for (xf, _), (xt, _) in zip	(gen_dataloader, cycle(true_dataloader)):
-                xf, xt = xf.to(device), xt.to(device)
+                xf, xt = xf.to(self.device), xt.to(self.device)
                 optimizer.zero_grad()
                 y_predf = self.model(xf)
                 loss = criterion(y_predf, torch.zeros_like(y_predf))
@@ -50,18 +51,3 @@ class ClassifierFilter(DatasetFilterBase):
                 loss += criterion(y_predt, torch.ones_like(y_predt))
                 loss.backward()
                 optimizer.step()
-
-class ResNetFinetune(nn.Module):
-    def __init__(self, num_classes, frozen=False):
-        super().__init__()
-        self.backbone = torchvision.models.resnet50(pretrained=True)
-        self.backbone.fc = nn.Identity()
-        if frozen:
-            for param in self.backbone.parameters():
-                param.requires_grad = False
-        self.classifier = nn.Linear(2048, num_classes)
-
-    def forward(self, x):
-        x = self.backbone(x)
-        x = self.classifier(x)
-        return x

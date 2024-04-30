@@ -11,7 +11,7 @@ def filter(cfg):
         labels = f.readlines()
         labels = [label.strip() for label in labels]
 
-    fil.filter()
+    fil.filter(labels)
 
 if __name__ == "__main__":
     filter()
