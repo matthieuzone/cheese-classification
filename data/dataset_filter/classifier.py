@@ -29,6 +29,9 @@ class ClassifierFilter(DatasetFilterBase):
 
     def train(self, num_epochs=10):
 
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.model.to(device)
+
         self.model.train()
         gen_data = torchvision.datasets.ImageFolder(self.input_dir, transform=self.transform)
         gen_dataloader = torch.utils.data.DataLoader(gen_data, batch_size=self.batch_size, shuffle=True)
@@ -39,6 +42,7 @@ class ClassifierFilter(DatasetFilterBase):
 
         for _ in tqdm(range(num_epochs)):
             for (xf, _), (xt, _) in zip	(gen_dataloader, cycle(true_dataloader)):
+                xf, xt = xf.to(device), xt.to(device)
                 optimizer.zero_grad()
                 y_predf = self.model(xf)
                 loss = criterion(y_predf, torch.zeros_like(y_predf))
