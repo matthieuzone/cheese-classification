@@ -14,7 +14,6 @@ class ClassifierFilter(DatasetFilterBase):
         super().__init__(batch_size, transform, input_dir, output_dir)
         self.model = model
         self.model.to(device)
-        self.transform = Compose([ToTensor(), transform])
         self.treshold = treshold
         self.true_dir = true_dir
         if from_checkpoint:
@@ -30,26 +29,27 @@ class ClassifierFilter(DatasetFilterBase):
             x = self.transform(x)
             x = x.to(device)
             y = self.model(x)
-            y = torch.softmax(y, dim=1)
+            y = torch.sigmoid(y)
             return (y[:, 1] > self.treshold).squeeze()
 
     def train(self, num_epochs=10):
 
         self.model.train()
-        gen_data = torchvision.datasets.ImageFolder(self.input_dir, transform=self.transform)
+        transform = Compose([ToTensor(), self.transform])
+        gen_data = torchvision.datasets.ImageFolder(self.input_dir, transform=transform)
         gen_dataloader = torch.utils.data.DataLoader(gen_data, batch_size=self.batch_size, shuffle=True)
-        true_data = torchvision.datasets.ImageFolder(self.true_dir, transform=self.transform)
+        true_data = torchvision.datasets.ImageFolder(self.true_dir, transform=transform)
         true_dataloader = torch.utils.data.DataLoader(true_data, batch_size=self.batch_size, shuffle=True)
         optimizer = torch.optim.Adam(self.model.parameters(), lr=1e-3)
-        criterion = nn.CrossEntropyLoss()
+        criterion = nn.BCEWithLogitsLoss()
 
         for _ in tqdm(range(num_epochs)):
             for (xf, _), (xt, _) in zip	(gen_dataloader, cycle(true_dataloader)):
                 xf, xt = xf.to(device), xt.to(device)
                 optimizer.zero_grad()
                 y_predf = self.model(xf)
-                loss = criterion(y_predf, torch.zeros_like(y_predf))
+                loss = criterion(y_predf, torch.zeros(y_predf.shape[0], 1, device=device))
                 y_predt = self.model(xt)
-                loss += criterion(y_predt, torch.ones_like(y_predt))
+                loss += criterion(y_predt, torch.ones(y_predt.shape[0], 1, device=device))
                 loss.backward()
                 optimizer.step()
