@@ -1,5 +1,6 @@
 instance:
-  _target_: models.mix.mixedModel
+  _target_: models.mix.MixedModel
+  p_dino: 0.8
   num_classes: ${dataset.num_classes}
   frozen: True
   unfreeze_last_layer: True
