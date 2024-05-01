@@ -11,3 +11,7 @@ savoir si il y a des trucs utiles dans les modèles fine tunable azure (tuto dan
 fine tuner StableDIffusion ou autre
 
 word/text embedding ou jsp trop quoi
+
+data augmentation
+
+pas besoin d'aussi grande résolution dans les images générées si c'est pour la réduire ensuite
