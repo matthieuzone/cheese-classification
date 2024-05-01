@@ -16,3 +16,4 @@ venv
 tests.ipynb
 tests.py
 dataset
+nohup.out

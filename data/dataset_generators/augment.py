@@ -1,5 +1,5 @@
 import torchvision.transforms.v2 as T
-import torch.cat
+import itertools
 
 class Augmentor:
     def __init__(self, transform=None, n = 1):
@@ -7,4 +7,4 @@ class Augmentor:
         self.n = n
 
     def __call__(self, x):
-        return torch.cat([self.transform(x) for _ in range(self.n)], dim=0)
+        return list(itertools.chain.from_iterable([self.transform(x) for _ in range(self.n)]))

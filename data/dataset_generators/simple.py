@@ -8,8 +8,9 @@ class SimplePromptsDatasetGenerator(DatasetGenerator):
         batch_size=1,
         output_dir="dataset/train",
         num_images_per_label=200,
+        augmentor=None,
     ):
-        super().__init__(generator, batch_size, output_dir)
+        super().__init__(generator, batch_size, output_dir, augmentor)
         self.num_images_per_label = num_images_per_label
 
     def create_prompts(self, labels_names):
