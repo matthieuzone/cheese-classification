@@ -1,0 +1,21 @@
+_target_: data.dataset_generators.augment.Augmentor
+n: 10
+transform : 
+  _target_: torchvision.transforms.Compose
+  transforms:
+    - _target_: torchvision.transforms.v2.RandAugment
+      n: 4
+      m: 10
+    - _target_: torchvision.transforms.v2.ColorJitter
+      brightness: 0.3
+      contrast: 0.3
+      saturation: 0.3
+      hue: 0.1
+    - _target_: torchvision.transforms.v2.RandomGrayscale
+      p: 0.05
+    - _target_: torchvision.transforms.RandomHorizontalFlip
+      p: 0.5
+    - _target_: torchvision.transforms.RandomRotation
+      degrees: 10
+    
+    
