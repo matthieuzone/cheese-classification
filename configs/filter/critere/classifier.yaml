@@ -10,6 +10,6 @@ input_dir: ${input_dir}
 output_dir: ${output_dir}
 true_dir: ${data_dir}/val
 treshold: 0.1
-from_checkpoint: false
+from_checkpoint: true
 num_epochs: 10
 model_path: ${root_dir}/checkpoints/${experiment_name}.pt

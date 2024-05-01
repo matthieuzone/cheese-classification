@@ -8,7 +8,7 @@ batch_size: 64
 
 input_name: simple_prompts
 output_name: simple_prompts_filterd
-experiment_name: filter_${input_name}_dino
+experiment_name: filter_${input_name}
 
 input_dir: ${data_dir}/train/${input_name}
 output_dir: ${data_dir}/train/${output_name}

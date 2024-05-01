@@ -30,7 +30,7 @@ class ClassifierFilter(DatasetFilterBase):
             x = x.to(device)
             y = self.model(x)
             y = torch.sigmoid(y)
-            return (y[:, 1] > self.treshold).squeeze()
+            return (y[:, 0] > self.treshold).squeeze()
 
     def train(self, num_epochs=10):
 
