@@ -9,7 +9,7 @@ batch_size: ${batch_size}
 input_dir: ${input_dir}
 output_dir: ${output_dir}
 true_dir: ${data_dir}/val
-treshold: 0.1
-from_checkpoint: true
+treshold: 0.2
+from_checkpoint: false
 num_epochs: 10
 model_path: ${root_dir}/checkpoints/${experiment_name}.pt

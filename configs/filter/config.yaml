@@ -6,8 +6,8 @@ root_dir:  ${hydra:runtime.cwd}
 
 batch_size: 64
 
-input_name: simple_prompts
-output_name: simple_prompts_filterd
+input_name: simple_prompts_augmented
+output_name: simple_prompts_augented_filterd
 experiment_name: filter_${input_name}
 
 input_dir: ${data_dir}/train/${input_name}
