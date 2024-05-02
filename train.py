@@ -2,6 +2,7 @@ import torch
 import wandb
 import hydra
 from tqdm import tqdm
+import os
 
 
 @hydra.main(config_path="configs/train", config_name="config")
@@ -85,6 +86,7 @@ def train(cfg):
                 **val_metrics,
             }
         )
+        os.makedirs(cfg.checkpoint_path[:-3], exist_ok = False) 
         torch.save(model.state_dict(), cfg.checkpoint_path[:-3] + f"/epoch_{epoch}.pt")
     torch.save(model.state_dict(), cfg.checkpoint_path)
 
