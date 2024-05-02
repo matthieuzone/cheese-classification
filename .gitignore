@@ -15,5 +15,5 @@ test_clip.py
 venv
 tests.ipynb
 tests.py
-dataset
+./dataset
 nohup.out

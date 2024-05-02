@@ -3,6 +3,7 @@ import wandb
 import hydra
 from tqdm import tqdm
 import os
+from omegaconf import OmegaConf
 
 def generate(cfg):
     dataset_generator = hydra.utils.instantiate(cfg.dataset_generator)
@@ -116,8 +117,43 @@ def fil(cfg):
 
 @hydra.main(config_path="configs/train", config_name="config")
 def tr(cfg):
-    
+    cfg.model = OmegaConf.load("../../../configs/train/model/dinov2.yaml")
+
+    cfg.dataset_name = "simple_prompts"
     train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_filtred"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    train(cfg)
+
+    cfg.model = OmegaConf.load("../../../configs/train/model/resnet.yaml")
+
+    cfg.dataset_name = "simple_prompts"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_filtred"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    train(cfg)
+
+    cfg.model = OmegaConf.load("../../../configs/train/model/mix.yaml")
+
+    cfg.dataset_name = "simple_prompts"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_filtred"
+    train(cfg)
+    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    train(cfg)
+
+
+
 
 if __name__ == "__main__":
     generate()
+    filter()
+    tr()
