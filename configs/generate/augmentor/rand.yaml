@@ -1,5 +1,5 @@
 _target_: data.dataset_generators.augment.Augmentor
-n: 3
+n: 4
 
 transform : 
   _target_: torchvision.transforms.v2.Compose
