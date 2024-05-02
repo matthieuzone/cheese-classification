@@ -154,6 +154,6 @@ def tr(cfg):
 
 
 if __name__ == "__main__":
-    generate()
-    filter()
+    gen()
+    fil()
     tr()
