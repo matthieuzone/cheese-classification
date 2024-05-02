@@ -85,6 +85,7 @@ def train(cfg):
                 **val_metrics,
             }
         )
+        torch.save(model.state_dict(), cfg.checkpoint_path[:-3] + f"/epoch_{epoch}.pt")
     torch.save(model.state_dict(), cfg.checkpoint_path)
 
 
