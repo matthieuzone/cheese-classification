@@ -89,6 +89,7 @@ def train(cfg):
         os.makedirs(cfg.checkpoint_path[:-3], exist_ok = True) 
         torch.save(model.state_dict(), cfg.checkpoint_path[:-3] + f"/epoch_{epoch}.pt")
     torch.save(model.state_dict(), cfg.checkpoint_path)
+    logger.finish()
 
 
 if __name__ == "__main__":
