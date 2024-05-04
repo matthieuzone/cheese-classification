@@ -1,6 +1,6 @@
 trouver des caractéristiques spécifiques à chaque fromage à mettre dans les prompts
 
-creer des promps modulables avec:
+creer des prompts modulables avec:
     type de cheese
     point de vue
     contexte (ce qu'il y a autour)
