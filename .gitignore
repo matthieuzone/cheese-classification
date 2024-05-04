@@ -2,12 +2,12 @@ __pycache__
 split_dataset.py
 wandb
 outputs
-/dataset/
+/dataset
 !/dataset/.empty
 challenge_subset
 create_test.py
 /dataset.zip
-/checkpoints/
+/checkpoints
 !/checkpoints/.empty
 submission_clip.py
 test_clip.py
@@ -15,5 +15,5 @@ test_clip.py
 venv
 tests.ipynb
 tests.py
-./dataset
 nohup.out
+submission.csv

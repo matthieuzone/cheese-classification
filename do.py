@@ -106,6 +106,7 @@ def train(cfg):
         os.makedirs(cfg.checkpoint_path[:-3], exist_ok = True) 
         torch.save(model.state_dict(), cfg.checkpoint_path[:-3] + f"/epoch_{epoch}.pt")
     torch.save(model.state_dict(), cfg.checkpoint_path)
+    logger.finish()
 
 @hydra.main(config_path="configs/generate", config_name="config")
 def gen(cfg):
@@ -117,43 +118,54 @@ def fil(cfg):
 
 @hydra.main(config_path="configs/train", config_name="config")
 def tr(cfg):
+    
     cfg.model = OmegaConf.load("../../../configs/train/model/dinov2.yaml")
 
     cfg.dataset_name = "simple_prompts"
+    cfg.experiment_name = "dinov2_simple_prompts"
     train(cfg)
     cfg.dataset_name = "simple_prompts_augmented"
+    cfg.experiment_name = "dinov2_simple_prompts_augmented"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_filtred"
+    cfg.dataset_name = "simple_prompts_filterd"
+    cfg.experiment_name = "dinov2_simple_prompts_filterd"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    cfg.dataset_name = "simple_prompts_augmented_filterd"
+    cfg.experiment_name = "dinov2_simple_prompts_augmented_filterd"
     train(cfg)
 
     cfg.model = OmegaConf.load("../../../configs/train/model/resnet.yaml")
 
     cfg.dataset_name = "simple_prompts"
+    cfg.experiment_name = "resnet_simple_prompts"
     train(cfg)
     cfg.dataset_name = "simple_prompts_augmented"
+    cfg.experiment_name = "resnet_simple_prompts_augmented"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_filtred"
+    cfg.dataset_name = "simple_prompts_filterd"
+    cfg.experiment_name = "resnet_simple_prompts_filterd"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    cfg.dataset_name = "simple_prompts_augmented_filterd"
+    cfg.experiment_name = "resnet_simple_prompts_augmented_filterd"
     train(cfg)
 
     cfg.model = OmegaConf.load("../../../configs/train/model/mix.yaml")
 
     cfg.dataset_name = "simple_prompts"
+    cfg.experiment_name = "mix_simple_prompts"
     train(cfg)
     cfg.dataset_name = "simple_prompts_augmented"
+    cfg.experiment_name = "mix_simple_prompts_augmented"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_filtred"
+    cfg.dataset_name = "simple_prompts_filterd"
+    cfg.experiment_name = "mix_simple_prompts_filterd"
     train(cfg)
-    cfg.dataset_name = "simple_prompts_augmented_filtred"
+    cfg.dataset_name = "simple_prompts_augmented_filterd"
+    cfg.experiment_name = "mix_simple_prompts_augmented_filterd"
     train(cfg)
 
 
 
 
 if __name__ == "__main__":
-    generate()
-    filter()
     tr()
