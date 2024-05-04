@@ -1,0 +1,9 @@
+instance:
+  _target_: models.vit.VITFinetune
+  num_classes: ${dataset.num_classes}
+  size: 'B'
+  patch_size: 16
+  frozen: True
+  unfreeze_last_layer: True
+
+name: VIT${.instance.size}${.instance.patch_size}

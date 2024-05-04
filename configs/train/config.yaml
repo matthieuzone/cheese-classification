@@ -1,12 +1,12 @@
 defaults:
-  - model: mix
+  - model: vit
   - dataset: standard
   - optim: adamw
   - loss_fn: cross_entropy
 
 epochs: 20
 
-dataset_name: simple_prompts
+dataset_name: simple_prompts_augmented
 
 datamodule:
   _target_: data.datamodule.DataModule
