@@ -116,8 +116,8 @@ def gen(cfg):
 def fil(cfg):
     filter(cfg)
 
-def continue_training(cfg, id, epoch_init = 0):
-    logger = wandb.init(project="challenge_cheese", name=cfg.experiment_name, id=id, resume="must")
+def continue_training(cfg, id, epoch_init = 0, epoch_end = 20):
+    logger = wandb.init(project="challenge_cheese", id=id, resume="must")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
     model.load_state_dict(torch.load(cfg.checkpoint_path))
@@ -129,7 +129,7 @@ def continue_training(cfg, id, epoch_init = 0):
     train_loader = datamodule.train_dataloader()
     val_loaders = datamodule.val_dataloader()
 
-    for epoch in tqdm(range(epoch_init, cfg.epochs)):
+    for epoch in tqdm(range(epoch_init, epoch_end)):
         epoch_loss = 0
         epoch_num_correct = 0
         num_samples = 0
@@ -210,12 +210,10 @@ def tr(cfg):
 
     cfg.dataset_name = "simple_prompts"
     cfg.experiment_name = "dinov2_simple_prompts"
-    continue_training(cfg,'h44h2w2m', 20)
+    continue_training(cfg,'an73nzep', 20, 40)
     cfg.dataset_name = "simple_prompts_augmented"
     cfg.experiment_name = "dinov2_simple_prompts_augmented"
-    continue_training(cfg,'ejicw7el', 20)
-    train(cfg)
-
+    continue_training(cfg,'ejicw7el', 20, 40)
 
 
 
