@@ -207,10 +207,12 @@ def continue_training(cfg, id, epoch_init = 0, epoch_end = 20):
 def tr(cfg):
     
     cfg.model = OmegaConf.load("../../../configs/train/model/dinov2.yaml")
-
+    cfg.checkpoint_path = "../../../checkpoints/dinov2_simple_prompts.pt"
     cfg.dataset_name = "simple_prompts"
     cfg.experiment_name = "dinov2_simple_prompts"
-    continue_training(cfg,'an73nzep', 20, 40)
+    continue_training(cfg,'7dmhgvv4', 20, 40)
+    
+    cfg.checkpoint_path = "../../../checkpoints/dinov2_simple_prompts_augmented.pt"
     cfg.dataset_name = "simple_prompts_augmented"
     cfg.experiment_name = "dinov2_simple_prompts_augmented"
     continue_training(cfg,'ejicw7el', 20, 40)
