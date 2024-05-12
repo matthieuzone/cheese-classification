@@ -23,3 +23,6 @@ Format du prompt : Génère une image de "NOM FROMAGE" "ADJ " et "ADJ 2", vue de
 zero shot pour le filtrage du dataset,
 
 explorer d'autres modèles que dinov 
+
+générer des images de fromage emballé avec le noms de fromage dessus
+pour reconnaitre le texte => tesseract
