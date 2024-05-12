@@ -15,3 +15,11 @@ word/text embedding ou jsp trop quoi
 data augmentation
 
 pas besoin d'aussi grande résolution dans les images générées si c'est pour la réduire ensuite
+
+
+Format du prompt : Génère une image de "NOM FROMAGE" "ADJ " et "ADJ 2", vue de "VUE" posé sur "ARRIERE PLAN"
+
+
+zero shot pour le filtrage du dataset,
+
+explorer d'autres modèles que dinov 
