@@ -21,7 +21,7 @@ def train(cfg):
         epoch_loss = 0
         epoch_num_correct = 0
         num_samples = 0
-        for i, batch in enumerate(train_loader):
+        for i, batch in tqdm(enumerate(train_loader), leave=False):
             images, labels = batch
             images = images.to(device)
             labels = labels.to(device)
