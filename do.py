@@ -111,6 +111,9 @@ def train(cfg):
 @hydra.main(config_path="configs/generate", config_name="config")
 def gen(cfg):
     generate(cfg)
+    cfg.output_dir = "../../../datasets/random_prompts"
+    cfg.augmentor = None
+    generate(cfg)
 
 @hydra.main(config_path="configs/filter", config_name="config")
 def fil(cfg):
@@ -220,4 +223,4 @@ def tr(cfg):
 
 
 if __name__ == "__main__":
-    tr()
+    gen()
