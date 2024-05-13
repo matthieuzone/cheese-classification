@@ -4,3 +4,4 @@ batch_size: ${batch_size}
 output_dir: ${data_dir}/train/random_prompts_augmented
 num_images_per_label: 1000
 augmentor: ${augmentor}
+repertoire: ${root_dir}/prompts
