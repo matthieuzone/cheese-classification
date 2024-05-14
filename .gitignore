@@ -17,4 +17,4 @@ tests.ipynb
 tests.py
 nohup.out
 submission.csv
-finetune
+/finetune
