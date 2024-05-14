@@ -16,10 +16,7 @@ transform :
       sharpness_factor: 0.5
     - _target_: torchvision.transforms.v2.RandomPosterize
       p: 0.2
-      bits: 4
-    - _target_: torchvision.transforms.v2.RandomSolarize
-      p: 0.2
-      threshold: 240
+      bits: 4 
     - _target_: torchvision.transforms.v2.RandomEqualize
       p: 0.2
     - _target_: torchvision.transforms.v2.RandomAutocontrast
