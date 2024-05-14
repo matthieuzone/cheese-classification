@@ -32,7 +32,7 @@ class SDXLLightiningGenerator:
         self.num_inference_steps = 4
         self.guidance_scale = 0
 
-    def generate(self, prompts):
+    def generate(self, prompts,label):
         images = self.pipe(
             prompts,
             num_inference_steps=self.num_inference_steps,

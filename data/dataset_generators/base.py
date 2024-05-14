@@ -34,7 +34,7 @@ class DatasetGenerator:
                 )
                 for i in range(0, num_images_per_prompt, self.batch_size):
                     batch = prompt[i : i + self.batch_size]
-                    images = self.generator.generate(batch)
+                    images = self.generator.generate(batch, label)
                     if self.augmentor is not None:
                         images = self.augmentor(images)
                     self.save_images(images, label, image_id_0)
