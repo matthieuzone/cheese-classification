@@ -23,7 +23,23 @@ fichiers = [os.path.join(repertoire, 'adjectifs.txt'), os.path.join(repertoire, 
 #syntaxe_eng_complex = "Create an image of the cheese '" + choisir_fromage('list_of_cheese.txt').lower()+"' "+ choisir_adjectif('adjectifs_eng.txt').lower()+ " and " + choisir_adjectif('adjectifs_eng.txt').lower() + " seen from " +choisir_adjectif('vue_eng.txt')+ ", placed on " +choisir_adjectif('arriere_plan_eng.txt')
 
 def create_prompt(label,repertoire) :
-    syntaxe_eng_complex = "Create an image of "+choisir_adjectif('adjectifs_eng.txt',repertoire).lower()+" "+label.lower()+" cheese, with a "+choisir_adjectif("texture_eng.txt", repertoire).lower() + " texture, seen from " +choisir_adjectif('vue_eng.txt', repertoire).lower() +", placed on " +choisir_adjectif('arriere_plan_eng.txt',repertoire).lower()
-    return syntaxe_eng_complex
+    a = "an image of a "
+    b = choisir_adjectif('adjectifs_eng.txt',repertoire).lower()
+    c = " " + choisir_adjectif('texture_eng.txt',repertoire).lower()
+    d = " " + label + " cheese"
+    e = " " + choisir_adjectif('arriere_plan_eng.txt',repertoire).lower()
+    f = " " + choisir_adjectif('vue_eng.txt',repertoire).lower()
+    syntaxe = a
+    p = 0.3
+    if random.random() > p:
+        syntaxe += b
+    if random.random() > p:
+        syntaxe += c
+    syntaxe += d
+    if random.random() > p:
+        syntaxe += e
+    if random.random() > p:
+        syntaxe += f
+    return syntaxe
 
 #print(syntaxe)

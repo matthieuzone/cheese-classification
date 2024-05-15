@@ -1,7 +1,11 @@
 defaults:
-  - image_generator: sdxl_lightning
+  - image_generator: finetuned
   - dataset_generator: random_prompts
-  - augmentor: rand
+#  - augmentor: rand
+  - _self_
+
+a: null 
+b: ${a}
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}

@@ -4,7 +4,7 @@ import hydra
 from tqdm import tqdm
 
 
-@hydra.main(config_path="configs/generate", config_name="config")
+@hydra.main(config_path="configs/generate", config_name="config", version_base=None)
 def generate(cfg):
     dataset_generator = hydra.utils.instantiate(cfg.dataset_generator)
 

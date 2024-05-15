@@ -26,10 +26,25 @@ def main():
     args.extend("" for _ in range(4))
     root_data_dir = "dataset/val"
     roor_output_dir = "checkpoints/finetune/"
+    labels = ["OSSAU- IRATY",
+        "PARMESAN",
+        "PECORINO",
+        "POULIGNY SAINT- PIERRE",
+        "RACLETTE",
+        "REBLOCHON",
+        "ROQUEFORT",
+        "SAINT- FÉLICIEN",
+        "SAINT-NECTAIRE",
+        "SCARMOZA",
+        "STILTON",
+        "TOMME DE VACHE",
+        "TÊTE DE MOINES",
+        "VACHERIN"
+        ]
     for label in labels:
         args[l  ] = f'--instance_data_dir={root_data_dir}/{label}'
         args[l+1] = f'--instance_prompt=a photo of {label} cheese'
-        args[l+2] = f'--validation_prompt=A photo of {label} on a plate'
+        args[l+2] = f'--validation_prompt=A photo of {label} cheese on a plate'
         args[l+3] = f'--output_dir={roor_output_dir}/{label}'
         subprocess.run(["accelerate", "launch", "generators/finetune/train_dreambooth_lora_sdxl.py"] + args) 
     

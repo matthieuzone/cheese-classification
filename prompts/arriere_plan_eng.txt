@@ -1,15 +1,14 @@
-a wooden board
-stone
-a table
-a tray
-a plate
-a cheese platter
-a cheese dome
-a cheese board
-a cheese knife
-a cheese shovel
-a cheese trolley
-a cheese bowl
-a cheese dome
-a cheese raclette
-a cheese grater
+on a wooden board
+on stone
+on a table
+on a tray
+on a plate
+on a cheese platter
+in a cheese dome
+on a cheese board
+with a cheese knife
+with a cheese shovel
+with a cheese trolley
+with a cheese bowl
+with a cheese raclette
+with a cheese grater

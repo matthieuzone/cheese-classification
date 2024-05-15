@@ -1,5 +1,5 @@
-from above
-from the side
+viewed from above
+viewed from the side
 cut
-from far away
+viewed from far away
 up close
