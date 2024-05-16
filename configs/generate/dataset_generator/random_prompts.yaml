@@ -2,6 +2,6 @@ _target_: data.dataset_generators.random.RandomPromptsDatasetGenerator
 generator: ${image_generator}
 batch_size: ${batch_size}
 output_dir: ${data_dir}/train/random_prompts_finetuned
-num_images_per_label: 100
+num_images_per_label: 1000
 augmentor: null
 repertoire: ${root_dir}/prompts
