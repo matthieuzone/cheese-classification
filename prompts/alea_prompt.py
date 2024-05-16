@@ -31,14 +31,14 @@ def create_prompt(label,repertoire) :
     f = " " + choisir_adjectif('vue_eng.txt',repertoire).lower()
     syntaxe = a
     p = 0.4
-    if random.random() > 0.01:
+    if random.random() > 0.99:
         syntaxe += b
-    if random.random() > 0.01:
+    if random.random() > 0.99:
         syntaxe += c
     syntaxe += d
-    if random.random() > p:
+    if random.random() > 1-p:
         syntaxe += e
-    if random.random() > p:
+    if random.random() > 1-p:
         syntaxe += f
     return syntaxe
 
