@@ -44,7 +44,7 @@ def find_closest_cheese(list_of_cheese):
     return closest_matches
 
 closest_cheeses = find_closest_cheese(list_of_cheese)
-print(closest_cheeses)
+print("closest:", closest_cheeses)
 #for cheese, match, score in closest_cheeses:
     #print(f"Fromage: {cheese}, Correspondance trouvée: {match}, Score: {score:.2f}")
 

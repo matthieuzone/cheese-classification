@@ -7,7 +7,7 @@ defaults:
 
 epochs: 10
 
-dataset_name: simple_prompts_augmented_filterd
+dataset_name: simple_prompts
 
 datamodule:
   _target_: data.datamodule.DataModule
