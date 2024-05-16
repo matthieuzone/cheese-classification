@@ -4,6 +4,8 @@ import os
 from PIL import Image
 import pandas as pd
 import torch
+from torchvision.datasets import ImageFolder
+import torchvision
 
 import easyocr
 import difflib
@@ -79,8 +81,15 @@ def create_submission(cfg):
         shuffle=False,
         num_workers=cfg.dataset.num_workers,
     )
-    datamodule = hydra.utils.instantiate(cfg.datamodule)
-    val_loader = datamodule.val_dataloader()['real_val']
+    
+    real_images_val_dataset = ImageFolder(cfg.datamodule.real_images_val_path, transform=torchvision.transforms.Compose([torchvision.transforms.Resize((1024, 1042)),torchvision.transforms.ToTensor()]))
+    transform = hydra.utils.instantiate(cfg.datamodule.val_transform)
+    val_loader = DataLoader(
+                real_images_val_dataset,
+                batch_size=124,
+                shuffle=False,
+                num_workers=1,
+            )
     # Load model and checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
     checkpoint = torch.load(cfg.checkpoint_path)
@@ -95,12 +104,17 @@ def create_submission(cfg):
         preds = model(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
-        for i in images.size(0):
-            fromage, _, score = find_closest_cheese(list_of_cheese)
-            if score > 0.70:
-                preds[i] = fromage.upper()
+        images = images.permute(0, 2, 3, 1)
+        images = images.cpu().numpy()
+        for i in range(images.shape[0]):
+            matchs = find_closest_cheese(list_of_cheese, images[i])
+            if matchs:
+                fromage, w, score = max(matchs, key=lambda x: x[2])
+                print(fromage, w, score)
+                if score > 0.7:
+                    preds[i] = fromage.upper()
         return preds
-
+    """
     for i, batch in enumerate(test_loader):
         images, image_names = batch
         images = images.to(device)
@@ -112,15 +126,18 @@ def create_submission(cfg):
             ]
         )
     submission.to_csv(f"{cfg.root_dir}/submission.csv", index=False)
-
+    """
     correct = 0
     total = 0
     for images, labels in val_loader:
         images = images.to(device)
         labels = labels.to(device)
-        preds = predict_image(images)
         total += labels.size(0)
-        correct += (preds == labels).sum().item()
+        labels = [class_names[label] for label in labels.cpu().numpy()]
+        preds = predict_image(images)
+        for i in range(len(preds)):
+            if preds[i] == labels[i]:
+                correct += 1
 
     print(f"Accuracy on real validation set: {correct / total}")
 
