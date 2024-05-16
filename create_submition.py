@@ -5,8 +5,8 @@ from PIL import Image
 import pandas as pd
 import torch
 
-#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cpu")
 
 class TestDataset(Dataset):
     def __init__(self, test_dataset_path, test_transform):
