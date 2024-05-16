@@ -11,7 +11,7 @@ def generate(cfg):
     with open(cfg.labels_file, "r") as f:
         labels = f.readlines()
         labels = [label.strip() for label in labels]
-    labels = labels[36:37]
+    labels = labels[21:22]
     dataset_generator.generate(labels)
 
 
