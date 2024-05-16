@@ -11,7 +11,7 @@ with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
 reader = easyocr.Reader(['fr'])
 
 # Lire l'image
-img = cv2.imread('blue.jpg')
+img = cv2.imread('maroilles.jpg')
 
 # Effectuer l'OCR sur l'image
 
@@ -44,13 +44,14 @@ def find_closest_cheese(list_of_cheese):
     return closest_matches
 
 closest_cheeses = find_closest_cheese(list_of_cheese)
-
+print(closest_cheeses)
 #for cheese, match, score in closest_cheeses:
     #print(f"Fromage: {cheese}, Correspondance trouvée: {match}, Score: {score:.2f}")
 
 # Trouver et afficher le meilleur score
 if closest_cheeses:
     best_match = max(closest_cheeses, key=lambda x: x[2])
+    print(best_match)
     print(f"Meilleure correspondance: Fromage: {best_match[0]}, Correspondance trouvée: {best_match[1]}, Score: {best_match[2]:.2f}")
 else:
     print("Aucune correspondance trouvée.")

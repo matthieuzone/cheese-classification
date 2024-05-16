@@ -1,5 +1,5 @@
 defaults:
-  - model: vit
+  - model: dinov2
   - dataset: standard
   - optim: adamw
   - loss_fn: cross_entropy
@@ -19,7 +19,7 @@ datamodule:
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
-checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
+checkpoint_path: ${root_dir}/checkpoints/epoch_2.pt
 
 experiment_name: ${model.name}_${dataset.name}
 hydra:
