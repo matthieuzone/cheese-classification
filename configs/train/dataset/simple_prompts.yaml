@@ -1,6 +1,7 @@
 defaults:
   - train_transform: simple
   - test_transform: simple
+  - _self_
 
 name: simple_prompts
 num_classes: 37

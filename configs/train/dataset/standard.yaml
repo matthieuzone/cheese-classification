@@ -1,6 +1,7 @@
 defaults:
   - train_transform: simple
   - test_transform: simple
+  - _self_
 
 name: ${dataset_name}
 num_classes: 37
