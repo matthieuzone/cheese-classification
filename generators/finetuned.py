@@ -1,6 +1,7 @@
 import torch
-from diffusers import DiffusionPipeline, EulerDiscreteScheduler, StableDiffusionXLPipeline, AutoencoderKL
+from diffusers import DiffusionPipeline, StableDiffusionXLImg2ImgPipeline
 from huggingface_hub.repocard import RepoCard
+import torchvision.transforms.functional
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 labels = []
@@ -12,42 +13,43 @@ class SDXLFineTunedGenerator:
     def __init__(
         self,
     ):
-        vae_path = "madebyollin/sdxl-vae-fp16-fix"
-        self.num_inference_steps = 25
-        self.guidance_scale = 0
+        self.num_inference_steps = 15
+        self.guidance_scale = 4
 
         #self.refiner = StableDiffusionXLImg2ImgPipeline.from_pretrained("stabilityai/stable-diffusion-xl-refiner-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16").to(device)
         self.active_label = None
-        self.vae = AutoencoderKL.from_pretrained(
-            vae_path,
-            subfolder=None,
-            revision=None,
-            variant=None,
-            torch_dtype = torch.float16,
-        )
 
     def initpipe(self, label):
-        print("Loading model for", label)
-        base = "stabilityai/stable-diffusion-xl-base-1.0"
-        self.pipe = StableDiffusionXLPipeline.from_pretrained(
-            base,
-            vae=self.vae,
-            revision=None,
-            variant=None,
-            torch_dtype=torch.float16,
-        ).to(device)
+        print("\nLoading model for", label)
+        lora_model_id = f'matthieuzone/{label}'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E")
+        card = RepoCard.load(lora_model_id)
+        base_model_id = card.data.to_dict()["base_model"]
 
-        self.pipe.load_lora_weights("../../../checkpoints/finetune/"+label)
-        self.pipe.set_progress_bar_config(disable=True)
+        # Load the base pipeline and load the LoRA parameters into it. 
+        self.pipe = DiffusionPipeline.from_pretrained(base_model_id, torch_dtype=torch.float16)
+        self.pipe = self.pipe.to("cuda")
+        self.pipe.load_lora_weights(lora_model_id)
+
+        # Load the refiner.
+        self.refiner = StableDiffusionXLImg2ImgPipeline.from_pretrained(
+            "stabilityai/stable-diffusion-xl-refiner-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16"
+        )
+        self.refiner.to("cuda")
+
+        prompt = "An image of BEAUFORT cheese."
+        self.generator = torch.Generator("cuda")
         self.active_label = label
 
     def generate(self, prompts, label):
         if label != self.active_label:
             self.initpipe(label)
+        print("\nsdxl Generating")
         images = self.pipe(
             prompts,
+            output_type="latent",
+            generator=self.generator,
             num_inference_steps=self.num_inference_steps,
-            guidance_scale=self.guidance_scale,
         ).images
-        #images = self.refiner(prompt=prompts, image = images).images
+        print("\nRefining")
+        images = self.refiner(prompt=prompts, image = images).images
         return images

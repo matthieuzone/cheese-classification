@@ -5,7 +5,7 @@ from tqdm import tqdm
 import os
 
 
-@hydra.main(config_path="configs/train", config_name="config")
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def train(cfg):
     logger = wandb.init(project="challenge_cheese", name=cfg.experiment_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

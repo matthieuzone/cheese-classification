@@ -4,9 +4,6 @@ defaults:
 #  - augmentor: rand
   - _self_
 
-a: null 
-b: ${a}
-
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
 batch_size: 1
