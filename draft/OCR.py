@@ -3,6 +3,15 @@ import easyocr
 import matplotlib.pyplot as plt
 import difflib
 
+# Ouvrir le fichier en mode lecture
+with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
+    # Lire toutes les lignes du fichier et les stocker dans une liste
+    list_of_cheese = [ligne.strip().lower() for ligne in fichier]
+
+# Afficher la liste des noms
+print(list_of_cheese)
+
+
 # This needs to run only once to load the model into memory
 reader = easyocr.Reader(['fr'])
 
@@ -32,11 +41,12 @@ def find_closest_match(word, word_list):
         return closest_match[0]
     else:
         return None
+    
+def find_closest_cheese(list_of_cheese):
+    closest = []
+    for cheese in list_of_cheese:
+        closest.append((cheese, find_closest_match(cheese, liste_mots)))
+    return closest
 
-word_to_find = 'Maroilles'
+print(find_closest_cheese(list_of_cheese))
 
-closest_word = find_closest_match(word_to_find, liste_mots)
-if closest_word:
-    print(f"Le mot le plus proche de '{word_to_find}' est '{closest_word}'.")
-else:
-    print(f"Aucun mot proche de '{word_to_find}' n'a été trouvé dans la liste.")
