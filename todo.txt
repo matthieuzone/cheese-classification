@@ -26,3 +26,9 @@ explorer d'autres modèles que dinov
 
 générer des images de fromage emballé avec le noms de fromage dessus
 pour reconnaitre le texte => tesseract
+
+-promp personnalisé par fromage
+-lancer grosse génération
+-zero shot
+-unsupervised
+-

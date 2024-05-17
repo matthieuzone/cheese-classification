@@ -11,13 +11,11 @@ import easyocr
 import difflib
 
 # Lire la liste des fromages depuis un fichier
-with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
-    list_of_cheese = [ligne.strip().lower() for ligne in fichier]
-
+with open('/Users/user/cheese-classification/list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
+    liste_des_fromages = [ligne.strip().lower() for ligne in fichier]
+print(liste_des_fromages)
 # Initialiser le lecteur EasyOCR
 reader = easyocr.Reader(['fr'])
-
-# Lire l'image
 
 # Effectuer l'OCR sur l'image
 
@@ -37,7 +35,6 @@ def find_closest_match(word, word_list):
         return match, score
     else:
         return None, 0.0
-    
 
 def find_closest_cheese(list_of_cheese, img):
     liste_mots = lecture_image(img)
@@ -49,7 +46,7 @@ def find_closest_cheese(list_of_cheese, img):
     return closest_matches
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 
 
 class TestDataset(Dataset):
@@ -81,20 +78,11 @@ def create_submission(cfg):
         shuffle=False,
         num_workers=cfg.dataset.num_workers,
     )
-    
-    real_images_val_dataset = ImageFolder(cfg.datamodule.real_images_val_path, transform=torchvision.transforms.Compose([torchvision.transforms.Resize((1024, 1042)),torchvision.transforms.ToTensor()]))
-    transform = hydra.utils.instantiate(cfg.datamodule.val_transform)
-    val_loader = DataLoader(
-                real_images_val_dataset,
-                batch_size=124,
-                shuffle=False,
-                num_workers=1,
-            )
-    # Load model and checkpoint
+    # Charger le modèle et le checkpoint
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    checkpoint = torch.load(cfg.checkpoint_path)
-    print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
+    checkpoint = torch.load(cfg.checkpoint_path, map_location=torch.device('cpu'))
     model.load_state_dict(checkpoint)
+    model.to(device)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
 
     # Create submission.csv
@@ -107,7 +95,8 @@ def create_submission(cfg):
         images = images.permute(0, 2, 3, 1)
         images = images.cpu().numpy()
         for i in range(images.shape[0]):
-            matchs = find_closest_cheese(list_of_cheese, images[i])
+            matchs = find_closest_cheese(liste_des_fromages, images[i])
+            print(matchs)
             if matchs:
                 fromage, w, score = max(matchs, key=lambda x: x[2])
                 print(fromage, w, score)
@@ -129,7 +118,7 @@ def create_submission(cfg):
     """
     correct = 0
     total = 0
-    for images, labels in val_loader:
+    for images, labels in test_loader:
         images = images.to(device)
         labels = labels.to(device)
         total += labels.size(0)
