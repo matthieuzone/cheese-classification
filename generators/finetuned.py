@@ -21,7 +21,7 @@ class SDXLFineTunedGenerator:
 
     def initpipe(self, label):
         print("\nLoading model for", label)
-        lora_model_id = f'matthieuzone/{label}'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E")
+        lora_model_id = f'matthieuzone/{label}2'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E")
         card = RepoCard.load(lora_model_id)
         base_model_id = card.data.to_dict()["base_model"]
 
