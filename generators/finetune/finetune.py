@@ -14,11 +14,11 @@ def main():
         '--resolution=1024',
         '--train_batch_size=1',
         '--gradient_accumulation_steps=4',
-        '--learning_rate=1e-4',
+        '--learning_rate=1e-5',
         '--report_to=wandb',
         '--lr_scheduler=constant',
         '--lr_warmup_steps=0',
-        '--max_train_steps=500',
+        '--max_train_steps=50',
         #'--validation_epochs=25',
         '--enable_xformers_memory_efficient_attention',
         '--gradient_checkpointing',
@@ -27,15 +27,13 @@ def main():
         ]
     l = len(args)
     args.extend("" for _ in range(3))
-    root_data_dir = "dataset/val"
+    root_data_dir = "dataset/val_finetune"
     roor_output_dir = "dataset/finetune"
-    labels = ["NEUFCHATEL"]
     for label in labels:
-        if label not in ["BEAUFORT", "BRIE DE MEULIN", "CABECOU", "CAMEMBERT"]:
             args[l  ] = f'--instance_data_dir={root_data_dir}/{label}'
             args[l+1] = f'--instance_prompt=a photo of {label} cheese'
             #args[l+2] = f'--validation_prompt=A photo of {label} cheese on a plate'
-            args[l+2] = f'--output_dir={roor_output_dir}/{label}'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E").replace("Ê", "E")
+            args[l+2] = f'--output_dir={roor_output_dir}/{label}2'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E").replace("Ê", "E")
             subprocess.run(["accelerate", "launch", "generators/finetune/train_dreambooth_lora_sdxl.py"] + args)
     print("\n\nDone")
     

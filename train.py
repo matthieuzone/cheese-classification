@@ -3,6 +3,7 @@ import wandb
 import hydra
 from tqdm import tqdm
 import os
+import torch
 
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)
