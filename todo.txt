@@ -26,3 +26,17 @@ explorer d'autres modèles que dinov
 
 générer des images de fromage emballé avec le noms de fromage dessus
 pour reconnaitre le texte => tesseract
+
+vacherin glace
+tête de moine chapeuau rapé
+
+sur fond blanc
+
+comme loris + d'images/label et plus variées
+1 seul finetune en tout
+
+société -> roquefort
+galbani -> MOZZARELLA
+salakis -> feta
+
+fine tuning multi concepts

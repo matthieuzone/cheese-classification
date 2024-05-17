@@ -1,0 +1,21 @@
+on a wooden board, ALL
+on a table, ALL
+on a tray, ALL
+on a white background, ALL
+on a white background, ALL
+on a white background, ALL
+on a white background, ALL
+on an uniform background, ALL
+on a salad, FETA, MOZZARELLA
+viewed from above, ALL
+viewed from the side, ALL
+cut, ALL
+with a knife, ALL
+up close, ALL
+with low lighting, ALL
+with high lighting, ALL
+with a knife, ALL
+with a line of mold, MORBIER
+with mold holes, FOURME D'AMBERT, ROQUEFORT
+with mold lines, STILTON
+
