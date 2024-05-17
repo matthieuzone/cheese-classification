@@ -13,8 +13,8 @@ class SDXLFineTunedGenerator:
     def __init__(
         self,
     ):
-        self.num_inference_steps = 15
-        self.guidance_scale = 4
+        self.num_inference_steps = 30
+        self.guidance_scale = 8
 
         #self.refiner = StableDiffusionXLImg2ImgPipeline.from_pretrained("stabilityai/stable-diffusion-xl-refiner-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16").to(device)
         self.active_label = None
