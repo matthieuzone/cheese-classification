@@ -2,6 +2,8 @@ import cv2
 import easyocr
 import matplotlib.pyplot as plt
 import difflib
+import os
+import glob
 
 # Lire la liste des fromages depuis un fichier
 with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
@@ -9,9 +11,6 @@ with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
 
 # Initialiser le lecteur EasyOCR
 reader = easyocr.Reader(['fr'])
-
-# Lire l'image
-img = cv2.imread('maroilles.jpg')
 
 # Effectuer l'OCR sur l'image
 
@@ -32,17 +31,15 @@ def find_closest_match(word, word_list):
     else:
         return None, 0.0
     
-liste_mots = lecture_image(img)
-print(liste_mots)
-
-def find_closest_cheese(list_of_cheese):
+def find_closest_cheese(list_of_cheese, img):
     closest_matches = []
     for cheese in list_of_cheese:
-        match, score = find_closest_match(cheese, liste_mots)
+        match, score = find_closest_match(cheese, lecture_image(img))
         if match:
             closest_matches.append((cheese, match, score))
-    return closest_matches
-
+    best_match = max(closest_matches, key=lambda x: x[2])
+    return best_match
+"""
 closest_cheeses = find_closest_cheese(list_of_cheese)
 print("closest:", closest_cheeses)
 #for cheese, match, score in closest_cheeses:
@@ -55,3 +52,11 @@ if closest_cheeses:
     print(f"Meilleure correspondance: Fromage: {best_match[0]}, Correspondance trouvée: {best_match[1]}, Score: {best_match[2]:.2f}")
 else:
     print("Aucune correspondance trouvée.")
+"""
+# Chemin du dossier principal
+dossier_principal = '/Users/user/cheese-classification/dataset/val_with_text'
+
+fichiers_images = glob.glob(os.path.join(dossier_principal, '**', '*.jpg'), recursive=True)
+    
+for fichier in fichiers_images:
+    print(fichier, find_closest_cheese(list_of_cheese, cv2.imread(fichier)))
