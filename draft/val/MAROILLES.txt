@@ -1,0 +1,25 @@
+val/MAROILLES/000005.jpg: In this image we can see a cake.
+val/MAROILLES/000024.jpg: A piece of cheese sits proudly on top of a wooden block, its surface adorned with a textured design. The cheese's white exterior contrasts beautifully with the brown wooden surface, creating a striking visual contrast. A slice of the cheese rests on the block, inviting a bite. The cheese's texture is evident in the lines and ridges on its surface, while the light shines upon its surface, illuminating the surrounding area. The cheese's color is predominantly white, with hints of brown and yellow. The wooden block and the cheese are positioned on a table, while a piece of the cheese protrudes from the block, adding a touch of whimsy to the scene.
+val/MAROILLES/000018.jpg: In this image we can see a cheese and a knife on the surface.
+val/MAROILLES/000008.jpg: a picture of a cheese with the words "fromagerie martin-lorient" on the bottom.
+val/MAROILLES/000009.jpg: In this image we can see a food item on the surface.
+val/MAROILLES/000020.jpg: In this image we can see a food item on the paper.
+val/MAROILLES/000019.jpg: In this image we can see a food item and leaves.
+val/MAROILLES/000003.jpg: In this image I can see a wooden plate on which I can see a box and a food item.
+val/MAROILLES/000012.jpg: In this image I can see a glass bowl and a spoon on the cloth. In the bowl I can see the cream. In the background I can see the plate and the box.
+val/MAROILLES/000015.jpg: In this image we can see some food item in a plastic box.
+val/MAROILLES/000022.jpg: In this image we can see a bag on the floor. In the background there is a wall.
+val/MAROILLES/000002.jpg: In this image we can see a cake, nuts and a plate on the table.
+val/MAROILLES/000011.jpg: In this image we can see some food items on the black surface.
+val/MAROILLES/000013.jpg: In this image we can see some food items on the grill.
+val/MAROILLES/000000.jpg: In this image we can see a box on the surface.
+val/MAROILLES/000014.jpg: In this image we can see a food item on the wooden surface.
+val/MAROILLES/000023.jpg: In this image we can see a cake on the cloth.
+val/MAROILLES/000006.jpg: In this image we can see food items on the plate.
+val/MAROILLES/000010.jpg: In this image we can see a food item.
+val/MAROILLES/000017.jpg: In this image we can see a food item on the black color object.
+val/MAROILLES/000021.jpg: In this image we can see a cake on the wooden surface.
+val/MAROILLES/000007.jpg: In this image we can see some food items.
+val/MAROILLES/000004.jpg: In this image we can see a food item in the box.
+val/MAROILLES/000016.jpg: In this image we can see some food items on the surface.
+val/MAROILLES/000001.jpg: In this image we can see a wooden table. On the table there is a knife, cloth, bread, cheese and some food.

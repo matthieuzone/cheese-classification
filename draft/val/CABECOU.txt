@@ -1,0 +1,25 @@
+val/CABECOU/000005.jpg: In this image we can see a goat. In the background there are people and we can see a wooden fence.
+val/CABECOU/000024.jpg: In this image we can see a food item.
+val/CABECOU/000018.jpg: In this image I can see a bread and a cream on it. It is on the wooden object.
+val/CABECOU/000008.jpg: In this image we can see two food items.
+val/CABECOU/000009.jpg: In this image we can see some food items on the cloth. In the background, we can see the trees and the sky.
+val/CABECOU/000020.jpg: A red plate with a brown triangle-shaped food on top. The plate is round and has a design on the edge. The food on the plate includes a slice of tomato, a piece of cheese, and a small piece of meat. The tomato is red and the cheese is white. The meat is brown. The plate is red and the food is on the plate.
+val/CABECOU/000019.jpg: A glass tray filled with asparagus and eggs. The asparagus is green and the asparagus stem is also green. The eggs are cooked and covered in cheese. The cheese is white and melted. The food is on a green table. The tray is clear and the table is green.
+val/CABECOU/000003.jpg: In this image we can see food items.
+val/CABECOU/000012.jpg: In this image we can see some food items.
+val/CABECOU/000015.jpg: In this image we can see some food items on the wooden surface.
+val/CABECOU/000022.jpg: In this image we can see two food items.
+val/CABECOU/000002.jpg: a white round piece of rocamadour cheese with a white label.
+val/CABECOU/000011.jpg: In this image we can see a food item on the plate.
+val/CABECOU/000013.jpg: In this image we can see a food item on the leaf.
+val/CABECOU/000000.jpg: In this image we can see some food items on the black color object.
+val/CABECOU/000014.jpg: In this image we can see two pieces of food on the white surface.
+val/CABECOU/000023.jpg: In this image we can see some objects on the grass.
+val/CABECOU/000006.jpg: In this image we can see a plate with food and a knife on the wooden surface.
+val/CABECOU/000010.jpg: In this image we can see some food items on the straw.
+val/CABECOU/000017.jpg: A machine with a blue handle and a bucket of white powder sits next to a rack of white cupcakes. The machine has a blue and white box, a green cord, and a black cord. The cupcakes are on a wire rack and there are many cupcakes on the rack. The bucket is full of white powder and there is a large silver bucket next to the machine. The machine has a blue and white box on the side, a blue and white box on the front, and a blue and white box on the back. The machine has a blue and white box on the side, a blue and white box on the front, and a blue and white box on the back. The machine has a blue and white box on the side, a blue
+val/CABECOU/000021.jpg: In this image we can see a piece of food on the wooden surface.
+val/CABECOU/000007.jpg: In this image I can see a bowl which is in white color and I can see a green color leaf on it.
+val/CABECOU/000004.jpg: In this image we can see a piece of food on the wooden surface.
+val/CABECOU/000016.jpg: In this image we can see some food items in the basket.
+val/CABECOU/000001.jpg: In this image we can see a bowl with milk in it.

@@ -1,0 +1,25 @@
+val/ROQUEFORT/000005.jpg: In this image we can see a piece of cake on the plate.
+val/ROQUEFORT/000024.jpg: In this image I can see a knife and a piece of food on the wooden object.
+val/ROQUEFORT/000018.jpg: In this image we can see some food items on the surface.
+val/ROQUEFORT/000008.jpg: In this image we can see a piece of cheese on the plate.
+val/ROQUEFORT/000009.jpg: a package of roquefort society cheese is shown.
+val/ROQUEFORT/000020.jpg: A slice of Rouetort cheese sits on a white table, adorned with a red and green label. The cheese has a white surface with black spots and a green design. The label features a black letter on a white background, a black circle with a white center, and a green diamond on the red background. The cheese is surrounded by a white wall and a red and green box. The box has a black letter on a white background and a green diamond on the red background. The cheese is also accompanied by a white sticker on the red background and a green leaf on the red background.
+val/ROQUEFORT/000019.jpg: In this image we can see a bottle.
+val/ROQUEFORT/000003.jpg: a green package of roquefort society cheese from france.
+val/ROQUEFORT/000012.jpg: a package of roquefort cheese sits on a table.
+val/ROQUEFORT/000015.jpg: In this image we can see a person holding a stick. In the background there is a cheese.
+val/ROQUEFORT/000022.jpg: In this image we can see a piece of cheese on the surface.
+val/ROQUEFORT/000002.jpg: In this image we can see a piece of cheese on the plate.
+val/ROQUEFORT/000011.jpg: In this image we can see a cheese and a cover.
+val/ROQUEFORT/000013.jpg: In this image I can see a wooden object on which I can see a food item.
+val/ROQUEFORT/000000.jpg: In this image we can see a cheese on the plate.
+val/ROQUEFORT/000014.jpg: A piece of white cheese with green mold sits on a black plate on a wooden table. The cheese has a blue mold and a green mold on the surface. The plate is on a black table and the table is made of wood. The cheese is a wedge and the wedge is white. The cheese has a white crumb on the surface. The plate is black and the table is brown.
+val/ROQUEFORT/000023.jpg: In this image we can see a piece of cheese on the plate.
+val/ROQUEFORT/000006.jpg: In this image we can see a piece of cheese.
+val/ROQUEFORT/000010.jpg: A large room filled with white barrels. The room has a concrete ceiling and a concrete archway. There are many barrels in the room, including a large white barrel, a round white barrel, and a large white cheese wheel. The barrels are stacked on top of each other, and some of the barrels are also stacked on a shelf. The room has a light fixture hanging from the ceiling and a light hanging from the ceiling. The light fixture is shining on the barrels. The barrels are illuminated by the light.
+val/ROQUEFORT/000017.jpg: In this image we can see a wooden object on which there is a bread and some food.
+val/ROQUEFORT/000021.jpg: In this image I can see a knife and a food item on the wooden surface.
+val/ROQUEFORT/000007.jpg: a piece of roquefort cheese is cut in half.
+val/ROQUEFORT/000004.jpg: A piece of white cheese with a green mold sits on a table, adorned with a blue flower and a green leaf. The cheese has a blue spot and a green spot on the leaf. The leaf is on a blue table, and the flower is on a blue table. The cheese is on a blue table, and the leaf is on a blue table. The flower is blue, and the leaf is green.
+val/ROQUEFORT/000016.jpg: a green and white package of carrefour roquefort.
+val/ROQUEFORT/000001.jpg: In this image we can see a piece of cheese.

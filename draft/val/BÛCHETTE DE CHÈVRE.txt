@@ -1,0 +1,25 @@
+val/BÛCHETTE DE CHÈVRE/000005.jpg: In this image we can see a food item on the wooden surface. On the right side of the image we can see a knife.
+val/BÛCHETTE DE CHÈVRE/000024.jpg: In this image we can see a drawing of a cake.
+val/BÛCHETTE DE CHÈVRE/000018.jpg: In this image we can see a food item on the wooden surface.
+val/BÛCHETTE DE CHÈVRE/000008.jpg: A bowl of Greek salad with a fork on the table. The salad consists of a red tomato, black olives, cucumber, feta cheese, and basil. The fork is silver and resting on the bowl. The table cloth is blue and white striped, and the bowl is white. The salad is in the bowl, and the fork is next to the bowl.
+val/BÛCHETTE DE CHÈVRE/000009.jpg: A log of white cheese is sliced into eight pieces. The cheese is white and has a rough texture. The slices of cheese are arranged in a row, with the longest slice at the end of the log and the shortest slice at the front. The cheese is on a white surface, and there is a white background behind the cheese. The photographer's name is written in white on the image.
+val/BÛCHETTE DE CHÈVRE/000020.jpg: In this image we can see a wooden surface. On the wooden surface there is a knife, a bowl and some food.
+val/BÛCHETTE DE CHÈVRE/000019.jpg: In this image we can see some food items on the surface.
+val/BÛCHETTE DE CHÈVRE/000003.jpg: A small glass jar filled with meat and vegetables. The jar has a white lid with a metal clasp and a silver clasp on the lid. The meat in the jar is pink and the vegetables are green. The base of the jar is black and the base is made of stone. The background is gray. The paper under the jar is white.
+val/BÛCHETTE DE CHÈVRE/000012.jpg: In this image we can see some food items on the plate, there are some bowls, and the background is blurred.
+val/BÛCHETTE DE CHÈVRE/000015.jpg: A wooden table with a brown paper towel and a piece of white cheese on top. The cheese is sliced and there are three slices on the paper. The paper is brown and the table is dark brown. There is a green plant on the table and a green leaf on the cheese. The cheese is white and the slices are round. The cheese is cut into three pieces and the largest piece is on the top left of the image.
+val/BÛCHETTE DE CHÈVRE/000022.jpg: a product from france called lait plaisir is on a table.
+val/BÛCHETTE DE CHÈVRE/000002.jpg: In this image we can see a food item on the cloth.
+val/BÛCHETTE DE CHÈVRE/000011.jpg: a package of petit chebra fromage au lait de chèvre.
+val/BÛCHETTE DE CHÈVRE/000013.jpg: a product of france that is wrapped in plastic.
+val/BÛCHETTE DE CHÈVRE/000000.jpg: In this image we can see a plate with food item and a knife on the surface.
+val/BÛCHETTE DE CHÈVRE/000014.jpg: a package of soignon butter is shown with a cow on the label.
+val/BÛCHETTE DE CHÈVRE/000023.jpg: In this image we can see a food item on the plate.
+val/BÛCHETTE DE CHÈVRE/000006.jpg: In this image we can see some food items on the surface.
+val/BÛCHETTE DE CHÈVRE/000010.jpg: In this image we can see food on the plate.
+val/BÛCHETTE DE CHÈVRE/000017.jpg: In this image we can see a plate with food items on it.
+val/BÛCHETTE DE CHÈVRE/000021.jpg: In this image we can see some food items on the surface. We can also see a knife, grapes and a bowl with some liquid in it.
+val/BÛCHETTE DE CHÈVRE/000007.jpg: In this image we can see a white color object.
+val/BÛCHETTE DE CHÈVRE/000004.jpg: In this image I can see a food item and some vegetables on the black color surface.
+val/BÛCHETTE DE CHÈVRE/000016.jpg: A table with a cheese roll and a small cheese roll on a black cutting board. The cheese roll is white and has a white covering. The small cheese roll is also white. There is a jar of honey behind the cheese roll. The honey jar has a white lid and a black label. The lemon is yellow and the orange is orange. The lemon is on a green cloth. The orange is on a green cloth. The spoon is on the table. The spoon is made of metal. The spoon is on the table. The table is made of wood. The table is black. The cheese is on the table.
+val/BÛCHETTE DE CHÈVRE/000001.jpg: In this image I can see a plate and on it I can see a knife and few pieces of food.

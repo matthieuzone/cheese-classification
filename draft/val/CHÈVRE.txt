@@ -1,0 +1,25 @@
+val/CHÈVRE/000005.jpg: In this image there is a wooden board on the table. On the board there are some cheese pieces, crackers and a knife.
+val/CHÈVRE/000024.jpg: In this image we can see some food items on the surface.
+val/CHÈVRE/000018.jpg: In this image we can see some food items in the trays.
+val/CHÈVRE/000008.jpg: In this image we can see some food items on the surface.
+val/CHÈVRE/000009.jpg: In this image we can see some food items on the wooden surface.
+val/CHÈVRE/000020.jpg: In this image we can see a wooden surface. On the wooden surface there is a knife, food item and a bowl.
+val/CHÈVRE/000019.jpg: In this image we can see a bowl.
+val/CHÈVRE/000003.jpg: In this image we can see a wooden surface. On the wooden surface there is a fork, cheese and a glass.
+val/CHÈVRE/000012.jpg: In this image I can see a plate which is in white color and on the plate I can see few food items which are in brown color.
+val/CHÈVRE/000015.jpg: In this image we can see a cake on the surface.
+val/CHÈVRE/000022.jpg: In this image we can see some food items on the wooden surface.
+val/CHÈVRE/000002.jpg: In this image we can see a logo. In the logo we can see a goat and some text.
+val/CHÈVRE/000011.jpg: In this image we can see a bread and a cheese on the wooden surface.
+val/CHÈVRE/000013.jpg: a white container with a green label that says plaquin & fils.
+val/CHÈVRE/000000.jpg: In this image we can see some food items on the plate.
+val/CHÈVRE/000014.jpg: a tray of cheese and cherries with a tag that says "duchesse".
+val/CHÈVRE/000023.jpg: A table topped with a variety of cheeses, including a long, rough-textured log of cheese, a round white cheese, a small white cheese, and a small white cheese with a dark spot. The cheese is covered in a white substance and has a textured surface. The cheese is cut into slices and a slice is being served on a wicker mat. The table is made of wood and has a brown wicker mat on it. There is a green leaf next to the cheese and a green leaf on the table. The cheese is also reflected in the light.
+val/CHÈVRE/000006.jpg: In this image we can see some food items on the wooden surface.
+val/CHÈVRE/000010.jpg: In this image we can see a bowl with some food item in it.
+val/CHÈVRE/000017.jpg: In this image we can see a cheese on the paper.
+val/CHÈVRE/000021.jpg: In this image we can see a cheese, nuts and some food items on the surface.
+val/CHÈVRE/000007.jpg: In this image we can see some food items, fruits, glasses, bottles, bowls, and some objects.
+val/CHÈVRE/000004.jpg: In this image we can see a cheese roll and a piece of cheese on the surface.
+val/CHÈVRE/000016.jpg: In this image we can see a wooden object on which there are some food items.
+val/CHÈVRE/000001.jpg: In this image we can see some food items on the wooden surface. In the background, we can see some plants and flowers.

@@ -1,0 +1,25 @@
+val/MOZZARELLA/000005.jpg: In this image I can see three women are standing. I can see one woman is holding a stick and another woman is holding a red color object. I can see she is wearing a mask and a cap. I can see she is wearing a white color dress. I can see a white color bucket. I can see a machine. I can see a window.
+val/MOZZARELLA/000024.jpg: In this image we can see a packet.
+val/MOZZARELLA/000018.jpg: In this image we can see a white color object.
+val/MOZZARELLA/000008.jpg: In this image I can see a wooden plate on which I can see a bread, tomato slices and a cream.
+val/MOZZARELLA/000009.jpg: In this image we can see a poster. In the poster we can see a plate and on the plate we can see some food items.
+val/MOZZARELLA/000020.jpg: In this image we can see a person holding a plate with food items on it.
+val/MOZZARELLA/000019.jpg: a bag of galbani mozzarella cheese with a picture of tomatoes and basil on it.
+val/MOZZARELLA/000003.jpg: a black bag of mozzarella di bufala campana dop
+val/MOZZARELLA/000012.jpg: In this image we can see food in a plate on the surface.
+val/MOZZARELLA/000015.jpg: In this image we can see some food items on the plate.
+val/MOZZARELLA/000022.jpg: In this image we can see some food items on the plate. In the background, we can see some vegetables on the table.
+val/MOZZARELLA/000002.jpg: In this image I can see a food item on the wooden surface. I can see the spatula.
+val/MOZZARELLA/000011.jpg: In this image we can see a wooden object on which there are some food items.
+val/MOZZARELLA/000013.jpg: In this image we can see food.
+val/MOZZARELLA/000000.jpg: A pizza with a variety of toppings, including tomatoes, cheese, and greens, sits on a white plate. The pizza has a brown crust and a red sauce. The cheese on the pizza is white and the tomatoes are red. The greens on the pizza are green and the leaves on the pizza are also green. The plate is white and the table cloth is tan. The basket in the background is brown.
+val/MOZZARELLA/000014.jpg: In this image we can see a bowl on the cloth.
+val/MOZZARELLA/000023.jpg: A glass of red wine and a piece of cheese sit on a black plate. The wine glass is filled with red wine, and the cheese is cut into a triangle and arranged on the plate. The cheese is yellow, and the wine is red. The plate is black, and the table is gray. There is a crack in the table, and the cheese is on a stone plate. The cheese is shaped like a triangle, and the wine glass is on the table.
+val/MOZZARELLA/000006.jpg: a package of mozzarella cheese is shown with a white background.
+val/MOZZARELLA/000010.jpg: a block of mozzarella cheese in a plastic bag.
+val/MOZZARELLA/000017.jpg: In this image I can see a white color bowl and in it I can see few white color balls. I can also see this image is little bit blurry from background.
+val/MOZZARELLA/000021.jpg: In this image we can see a bowl with some food items in it. We can also see a cloth on the table.
+val/MOZZARELLA/000007.jpg: a red bag of shredded mozzarella cheese from the brand saguaro.
+val/MOZZARELLA/000004.jpg: In this image we can see food items on the plate.
+val/MOZZARELLA/000016.jpg: In this image we can see a wooden object on which there is a food item.
+val/MOZZARELLA/000001.jpg: In this image we can see a white color surface. On the surface we can see a white color object.

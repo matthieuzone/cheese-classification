@@ -1,0 +1,25 @@
+val/PECORINO/000005.jpg: a bag of pecorino romano d.o.p. grated cheese is on a wooden table.
+val/PECORINO/000024.jpg: In this image I can see a knife, a cheese, few sticks and a nut on the wooden object.
+val/PECORINO/000018.jpg: In this image we can see some food items tied with the thread.
+val/PECORINO/000008.jpg: In this image we can see a wooden table. On the table there is a cheese.
+val/PECORINO/000009.jpg: A large collection of cheese sits neatly on wooden shelves. The cheese is predominantly white, with a few exceptions. A large wheel of cheese dominates the center of the shelf, while other cheeses are arranged in rows and columns. The cheese is textured and has a slight sheen. The shelves are made of wood and are brown. The cheese is stored in a cool, dry place.
+val/PECORINO/000020.jpg: In this image we can see a cheese on the wooden plate.
+val/PECORINO/000019.jpg: In this image we can see a wooden tray on which there is a knife and some food items.
+val/PECORINO/000003.jpg: In this image we can see some food items on the wooden surface.
+val/PECORINO/000012.jpg: A large piece of white cheese with a brown crust sits on a white background. The cheese has a bumpy texture and a small hole. There are small black spots on the cheese, a large black spot, and a yellow spot. The cheese is cut into a rectangular shape and has a rounded edge. The background is white and there is a shadow on the cheese.
+val/PECORINO/000015.jpg: In this image I can see a wooden board on which there is a knife, a cheese and a nut.
+val/PECORINO/000022.jpg: a bunch of food items wrapped in brown paper and tied with white string.
+val/PECORINO/000002.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/PECORINO/000011.jpg: a bag of pecorino romano d.o.p. grated on a wooden table.
+val/PECORINO/000013.jpg: In this image we can see a knife, cheese and a cloth on the wooden surface.
+val/PECORINO/000000.jpg: In this image we can see some food items on the wooden surface.
+val/PECORINO/000014.jpg: In this image I can see the food items on the brown color surface. I can see the knife and the glass with the drink.
+val/PECORINO/000023.jpg: In this image we can see some cheese blocks and some objects.
+val/PECORINO/000006.jpg: a piece of montenaro cheese is on a wooden tray.
+val/PECORINO/000010.jpg: a piece of cheese and a piece of cheese in a triangle shape with the words "ricotta di bufalo" on it.
+val/PECORINO/000017.jpg: A piece of white cheese sits on a wooden cutting board, next to a sharp knife with a wooden handle. The cheese is broken up into small pieces and scattered around the board. A bunch of red grapes are behind the cheese. The knife is on a towel and there are cheese crumbs on the towel. The cheese is white and the grapes are red.
+val/PECORINO/000021.jpg: In this image we can see a food item in a plate. We can also see a cloth on the table.
+val/PECORINO/000007.jpg: a piece of pecorino cheese is displayed on a wooden surface.
+val/PECORINO/000004.jpg: In this image we can see a plate on the table. On the plate there is a cheese. In the background there is a lemon and an apple.
+val/PECORINO/000016.jpg: In this image I can see a wooden table and on it I can see a cheese and a piece of cheese is visible on the wooden table.
+val/PECORINO/000001.jpg: In this image we can see a piece of food on the paper.

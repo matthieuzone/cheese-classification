@@ -1,0 +1,25 @@
+val/RACLETTE/000005.jpg: In this image I can see a person holding a knife and pouring the cheese in the plate. I can see the food items in the plate.
+val/RACLETTE/000024.jpg: In this image I can see a table on which there is a plate, a bowl, a bottle, a glass, a fork, a knife, a plate, a tray, a bowl, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate, a plate,
+val/RACLETTE/000018.jpg: In this image we can see a plate on the surface. On the plate there are slices of cheese.
+val/RACLETTE/000008.jpg: In this image we can see a person pouring cheese into the plate.
+val/RACLETTE/000009.jpg: In this image we can see some food items on the plates.
+val/RACLETTE/000020.jpg: In this image we can see some food items in the bowls, there are some cheese slices in the plate, there is a cloth, there is a wooden object.
+val/RACLETTE/000019.jpg: In this image we can see some food items on the wooden surface.
+val/RACLETTE/000003.jpg: A person is cutting a piece of cheese onto a white plate. The cheese is yellow and dripping onto the plate. A small potato, a green pickle, and a glass of wine are also on the table. The plate is round and the table is brown. The knife is blue and the cheese is being poured onto the plate with the knife.
+val/RACLETTE/000012.jpg: A table topped with bowls of food and plates of food. The table is set with a white bowl, a white plate, a glass, and a fork. There is a bowl of food on the table, a plate of food on the table, and a bowl of food on the plate. The food in the bowl is a piece of food. The fork on the plate is a silver fork. The spoon in the bowl is a silver spoon. The knife on the plate is a silver knife. The knife on the table is a silver knife. The glass on the table is a clear glass. The bottle on the table is a clear bottle. The plate on the table is a white plate.
+val/RACLETTE/000015.jpg: In this image I can see a plate and on it I can see few food items. I can also see a spoon and on it I can see the cheese.
+val/RACLETTE/000022.jpg: In this image I can see a person holding a bowl and pouring the food into the plate. The plate is in white color and the food is in green, brown and black color. The person is wearing a glove and a watch.
+val/RACLETTE/000002.jpg: In this image we can see some food items in the trays.
+val/RACLETTE/000011.jpg: In this image I can see the wooden table. On the table I can see the cheese slices, the wooden spoon, the bowl, the plate and the food.
+val/RACLETTE/000013.jpg: In this image we can see some food items in the plates and bowls.
+val/RACLETTE/000000.jpg: In this image we can see a plate with some food item.
+val/RACLETTE/000014.jpg: In this image I can see a table on which there are plates, glasses, bottles, a bowl, a knife, a spoon, a tray and some food items.
+val/RACLETTE/000023.jpg: In this image we can see a food item.
+val/RACLETTE/000006.jpg: In this image we can see a plate with food items and a glass with drink in it.
+val/RACLETTE/000010.jpg: In this image we can see some food items in the plates, there are some fruits on the table, we can see the wooden surface.
+val/RACLETTE/000017.jpg: In this image we can see a plate with food items on it.
+val/RACLETTE/000021.jpg: In this image I can see a plate which consists of food. I can also see a spoon and few other objects on the table.
+val/RACLETTE/000007.jpg: A table set with a cheese slicer, plates, and glasses of wine. A large piece of cheese sits on the cheese slicer, while a bowl of potatoes and a bowl of broccoli are on the table. A knife and fork are on the table next to the cheese. A glass of white wine is on the table next to the cheese. A yellow napkin is on the table next to the cheese. The cheese is yellow and the potatoes are in a bag.
+val/RACLETTE/000004.jpg: A large piece of cheese sits proudly on a wooden table, alongside a bowl of melted cheese and a pan of melted cheese. The cheese is yellow and the plate is black. A small black bowl sits on the table next to the cheese. A white paper towel is wrapped around the cheese. A red and black label is on the cheese. A small black pan with a handle is on the table. A white and red heart is on the cheese. A small black bowl with a handle is on the table. A white and red heart is on the cheese. A small black bowl with a handle is on the table. A white and red heart is on the cheese. A small black bowl with a handle is on the table. A small black bowl
+val/RACLETTE/000016.jpg: In this image we can see a machine, plate, fork, knife, potato and a cloth.
+val/RACLETTE/000001.jpg: In this image I can see the food in the plates. I can see the food is in white and brown color. I can see the food is on the white color surface.

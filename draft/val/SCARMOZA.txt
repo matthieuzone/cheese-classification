@@ -1,0 +1,25 @@
+val/SCARMOZA/000005.jpg: In this image we can see two objects on the black color surface. In the background, we can see the wooden surface.
+val/SCARMOZA/000024.jpg: In this image I can see two yellow color fruits on the wooden object. I can see the green leaves.
+val/SCARMOZA/000018.jpg: In this image we can see some fruits and vegetables on the plate.
+val/SCARMOZA/000008.jpg: In this image we can see some food items.
+val/SCARMOZA/000009.jpg: In this image we can see some food items on the paper.
+val/SCARMOZA/000020.jpg: In this image we can see a fruit hanging to the wooden stick.
+val/SCARMOZA/000019.jpg: In this image we can see some food items.
+val/SCARMOZA/000003.jpg: In this image we can see a food item on the surface.
+val/SCARMOZA/000012.jpg: In this image we can see a pizza on the surface.
+val/SCARMOZA/000015.jpg: In this image we can see a bowl containing food and a wooden spoon.
+val/SCARMOZA/000022.jpg: In this image I can see a tray which is in silver color and on the tray I can see a knife, fork and few pieces of food. I can also see this image is little bit blurry from background.
+val/SCARMOZA/000002.jpg: In this image I can see a wooden table. On the table I can see a bread and a food item.
+val/SCARMOZA/000011.jpg: A plate of apple slices sits on a wooden cutting board, alongside a slice of bread on a separate board. The plate is white with a red border, and the apple slices are yellow. The bread is brown and has a dark spot on the side. The cutting board is made of wood and has a red stripe around the edge. The towel is blue and white, and it is placed on the table next to the plate. The apple slices are arranged in a pile on the plate, and the bread is on the right side of the plate.
+val/SCARMOZA/000013.jpg: a white container of burrata fromage frais frischkäse
+val/SCARMOZA/000000.jpg: a package of smith's snack lays on a wooden table.
+val/SCARMOZA/000014.jpg: In this image we can see a jug placed on the dry grass.
+val/SCARMOZA/000023.jpg: In this image we can see a yellow color object and a flag on it.
+val/SCARMOZA/000006.jpg: A piece of cheese sits proudly on a wooden cutting board, its yellow hue contrasting the white wall behind it. The cheese, shaped like a snail, rests on the board with a single slice of cheese protruding from its shell. The cutting board, made of wood, has a brown surface and a rounded edge. The cheese's shadow cast upon the board is evident, creating a sense of depth and dimension. The background is white, providing a stark contrast to the cheese's vibrant color.
+val/SCARMOZA/000010.jpg: In this image I can see the wooden board and on it I can see few white color things. I can also see few green color things and I can see this image is little bit blurry from background.
+val/SCARMOZA/000017.jpg: In this image we can see a fruit.
+val/SCARMOZA/000021.jpg: In this image I can see a wooden table on which a cloth, a knife and a wooden board are there. On the board I can see few slices of cheese.
+val/SCARMOZA/000007.jpg: In this image we can see some vegetables, bread, a bowl with some liquid in it, a bowl with some cream in it, a bowl with some salt in it, a bowl with some tomatoes in it, a bowl with some bread in it, a bowl with some dried leaves in it, a bowl with some dried flowers in it, a bowl with some dried leaves in it, a bowl with some dried flowers in it, a bowl with some bread in it, a bowl with some cream in it, a bowl with some tomatoes in it, a bowl with some bread in it, a bowl with some cream in it, a bowl with some bread in it, a bowl with some cream in it, a bowl with some cream in it
+val/SCARMOZA/000004.jpg: In this image we can see some food items.
+val/SCARMOZA/000016.jpg: In this image we can see some food items on the white surface.
+val/SCARMOZA/000001.jpg: In this image we can see a food item on the wooden surface. In the background, we can see the wall.
