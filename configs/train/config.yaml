@@ -20,7 +20,11 @@ datamodule:
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
+<<<<<<< HEAD
+checkpoint_path: ${root_dir}/checkpoints/epoch_2.pt
+=======
 checkpoint_path: ${root_dir}/checkpoints/submitted/epoch_11.pt
+>>>>>>> 3dfca582412da61b5416ecbc34a617be5b02eda9
 
 experiment_name: ${model.name}_${dataset.name}_aaabbb
 hydra:

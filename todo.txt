@@ -27,6 +27,13 @@ explorer d'autres modèles que dinov
 générer des images de fromage emballé avec le noms de fromage dessus
 pour reconnaitre le texte => tesseract
 
+<<<<<<< HEAD
+-promp personnalisé par fromage
+-lancer grosse génération
+-zero shot
+-unsupervised
+-
+=======
 vacherin glace
 tête de moine chapeuau rapé
 
@@ -40,3 +47,4 @@ galbani -> MOZZARELLA
 salakis -> feta
 
 fine tuning multi concepts
+>>>>>>> 33620c84600a2632bbe8157f7400090472c0e814

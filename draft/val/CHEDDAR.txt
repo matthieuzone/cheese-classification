@@ -1,0 +1,25 @@
+val/CHEDDAR/000005.jpg: In this image we can see a packet.
+val/CHEDDAR/000024.jpg: In this image we can see a stack of cheese slices.
+val/CHEDDAR/000018.jpg: In this image we can see some food items on the wooden surface.
+val/CHEDDAR/000008.jpg: a package of black diamond cheddar slices with 40 g.
+val/CHEDDAR/000009.jpg: In this image we can see some food items on the wooden surface.
+val/CHEDDAR/000020.jpg: In this image we can see a packet with some food item.
+val/CHEDDAR/000019.jpg: In this image we can see a cheese on the table.
+val/CHEDDAR/000003.jpg: In this image we can see a box.
+val/CHEDDAR/000012.jpg: A plate with a slice of cheese and a pepper. The cheese is yellow and sliced, with a long green pepper on the side. The plate is white and round, and the cheese is on a white plate. The cheese is also on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate under the cheese. The cheese is on a white plate
+val/CHEDDAR/000015.jpg: a heart shaped downderry organic cheddar cheese on a white background.
+val/CHEDDAR/000022.jpg: In this image we can see a packet with some text and numbers on it.
+val/CHEDDAR/000002.jpg: A wooden cutting board holds a large block of cheese and several pieces of cheese. The cheese is yellow and has a slight sheen. A small piece of cheese is broken off the block and sits next to the whole cheese. The cutting board has a hole in the handle and a hole in the wood. The cheese is on a wooden table. There is also a black block of cheese on the table. The cheese is cut into small pieces and there are three red grapes on the cutting board.
+val/CHEDDAR/000011.jpg: In this image we can see a yellow color block.
+val/CHEDDAR/000013.jpg: a package of french price brand shredded cheddar mozzarella.
+val/CHEDDAR/000000.jpg: A wooden table topped with a slice of bread and a ball of cheese. The bread is white and has a brown crust. The cheese is brown and has a crack in the center. There is a slice of bread with peanut butter on it, a piece of bread with a bite taken out of it, and a piece of bread with a crumb on it. There is also a piece of red fruit, a piece of brown nut, and a piece of white paper under the food. The table is made of wood and has a brown carpet on the floor.
+val/CHEDDAR/000014.jpg: In this image there is a table. On the table there are some food items, a glass of wine, a jar, a wooden spoon, a basket, a wooden box, a wooden plank and some other objects.
+val/CHEDDAR/000023.jpg: In this image we can see a cheese on the wooden surface.
+val/CHEDDAR/000006.jpg: In this image we can see a wooden object on which there is a piece of food. In the background there are vegetables.
+val/CHEDDAR/000010.jpg: In this image we can see some food items on the surface.
+val/CHEDDAR/000017.jpg: A piece of cheese sits proudly on a white plate, casting a shadow on the table. The cheese is yellow and has a textured surface. A small piece of cheese rests on the plate next to the large piece. The plate is on a brown table and the cheese is illuminated by light shining on it. The text "Fait En Fromage" is written in blue on the plate. The cheese is also reflected in the light, creating a shimmering appearance.
+val/CHEDDAR/000021.jpg: a bar of cracker barrel cheese is in a plastic bag.
+val/CHEDDAR/000007.jpg: In this image we can see a bowl and some cheese cubes on the wooden surface.
+val/CHEDDAR/000004.jpg: A wooden table topped with a variety of cheese, crackers, and fruit. A large wedge of cheese sits on the table, with a bite taken out of it. A glass of red wine and a glass of red jelly are also on the table. A jar of jelly sits next to the cheese. A piece of bread is in a wooden box. A small piece of bread is on the table. A small piece of fruit is on the table. A small piece of cheese is on the table. A small piece of bread is on the table. A small piece of fruit is on the table. A small piece of cheese is on the table. A small piece of bread is on the table. A small piece of fruit is on the table.
+val/CHEDDAR/000016.jpg: In this image we can see a cheese and some vegetables on the wooden surface.
+val/CHEDDAR/000001.jpg: In this image we can see a wooden table. On the table there is a knife, bread, cheese and a glass of wine.

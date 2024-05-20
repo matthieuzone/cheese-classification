@@ -1,0 +1,25 @@
+val/EPOISSES/000005.jpg: In this image we can see some food items on the surface.
+val/EPOISSES/000024.jpg: In this image I can see a wooden table on which a bowl, a glass, a bowl, a knife and a cheese are placed.
+val/EPOISSES/000018.jpg: In this image we can see a piece of bread.
+val/EPOISSES/000008.jpg: A round piece of cheese in a white container sits on a white table. The cheese is red and has a white label with red writing. The label has a picture of a person and the words "AFFINE" and "AU." The cheese is wrapped in plastic and has a white plastic wrap around it. The background of the image is white.
+val/EPOISSES/000009.jpg: a round container of food with the words epoisses berthaut on the lid.
+val/EPOISSES/000020.jpg: a piece of cheese is on a plate and the container says epoisses berthaud.
+val/EPOISSES/000019.jpg: In this image we can see a food item.
+val/EPOISSES/000003.jpg: In this image we can see a picture of a cheese.
+val/EPOISSES/000012.jpg: A piece of cheese sits proudly on a wooden cutting board, its soft white interior oozing out. The cheese, adorned with a textured surface, rests on a clear plastic wrap, its golden brown exterior contrasting with the brown wood of the cutting board. A silver knife, adorned with the word "image," rests next to the cheese, its blade gleaming. The cheese's surface exhibits lines and grooves, creating a sense of texture and depth. The cutting board, crafted from wood, bears the words "Epoisses Berthout," while the cheese's shadow cast upon the board adds a touch of mystery.
+val/EPOISSES/000015.jpg: In this image we can see a food item.
+val/EPOISSES/000022.jpg: In this image we can see a food item on the surface.
+val/EPOISSES/000002.jpg: In this image we can see a food item.
+val/EPOISSES/000011.jpg: In this image we can see a food item.
+val/EPOISSES/000013.jpg: a piece of cheese on a plate with a spoon and flowers.
+val/EPOISSES/000000.jpg: In this image we can see a food item.
+val/EPOISSES/000014.jpg: a round wooden container of epoisses berthaut cheese.
+val/EPOISSES/000023.jpg: In this image we can see a food item on the blue color surface.
+val/EPOISSES/000006.jpg: A large piece of cheese sits on a wooden table, with a slice missing. The cheese is brown and has a textured surface. A small green plant and a bunch of grapes are next to the cheese. The grapes are dark purple and the plant has green leaves. The table is dark brown and has a shadow cast upon it. The cheese is cut into a triangle and the slice is being held by a hand.
+val/EPOISSES/000010.jpg: In this image we can see a food item on the plate.
+val/EPOISSES/000017.jpg: In this image we can see a cake.
+val/EPOISSES/000021.jpg: In this image we can see a cake in a bowl.
+val/EPOISSES/000007.jpg: In this image we can see a plate. On the plate there is a cheese.
+val/EPOISSES/000004.jpg: In this image we can see a map.
+val/EPOISSES/000016.jpg: a round container of epoisses berthault cheese is shown.
+val/EPOISSES/000001.jpg: In this image we can see a cheese in a wooden box.

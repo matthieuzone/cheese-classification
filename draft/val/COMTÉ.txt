@@ -1,0 +1,25 @@
+val/COMTÉ/000005.jpg: In this image we can see a cheese.
+val/COMTÉ/000024.jpg: In this image we can see a cheese.
+val/COMTÉ/000018.jpg: In this image we can see a cheese on the surface.
+val/COMTÉ/000008.jpg: In this image we can see a piece of cheese.
+val/COMTÉ/000009.jpg: a piece of cheese with a label that says "conter" on it.
+val/COMTÉ/000020.jpg: In this image we can see some food items on the table.
+val/COMTÉ/000019.jpg: In this image we can see some food items on the wooden surface.
+val/COMTÉ/000003.jpg: In this image we can see a wooden object on which there is a food item.
+val/COMTÉ/000012.jpg: A piece of cheese sits proudly on a table, its surface adorned with a white arrow pointing to the right. The cheese, a wedge of white and brown, is adorned with a black substance and a white substance. A slice of the cheese rests on the table next to the wedge. The cheese is cut into a triangular shape, and a small piece of the cheese is visible on the table. The cheese is surrounded by a black substance, and the edge of the cheese is visible. The cheese is on a black surface, and the word "morbier" is written in white chalk on the table.
+val/COMTÉ/000015.jpg: In this image we can see a piece of cheese.
+val/COMTÉ/000022.jpg: In this image we can see a poster with some text and images.
+val/COMTÉ/000002.jpg: In this image we can see a logo.
+val/COMTÉ/000011.jpg: In this image we can see a logo.
+val/COMTÉ/000013.jpg: In this image we can see a cake.
+val/COMTÉ/000000.jpg: a large vat of liquid with the word "castello" on the top.
+val/COMTÉ/000014.jpg: a piece of gouda cheese is cut into a slice.
+val/COMTÉ/000023.jpg: A large room filled with cheese on shelves. The room has a curved ceiling and a long narrow hallway. There is a long narrow walkway between rows of cheese. The cheese is stacked on shelves and there is a large round piece of cheese on the shelf. The light is shining on the floor and reflecting off the cheese. The ceiling is arched and there is a reflection of the ceiling on the cheese.
+val/COMTÉ/000006.jpg: a piece of cheese and a knife on a table with a green leaf.
+val/COMTÉ/000010.jpg: In this image we can see a cheese.
+val/COMTÉ/000017.jpg: In this image we can see a wooden object on which there is a piece of cheese and a piece of fruit.
+val/COMTÉ/000021.jpg: In this image we can see a logo.
+val/COMTÉ/000007.jpg: A man in a white lab coat and hair net is carving a large piece of cheese in a cheese cellar. The cheese is stacked on shelves and the man is using a knife to cut the cheese. The cheese has a green number on it and the man's hand is holding the cheese. The man is wearing a white coat, a white hat, and a white apron. The cheese is on a wooden shelf and the man is standing in the cheese cellar.
+val/COMTÉ/000004.jpg: In this image we can see a piece of cheese, bread and some cubes of cheese on the wooden surface.
+val/COMTÉ/000016.jpg: In this image we can see a wooden object on which there is a food item.
+val/COMTÉ/000001.jpg: A table topped with a bottle of wine, a glass of white wine, a pear, and a piece of cheese. The bottle is tall and clear, with a black cap. The glass of wine is half full, and the glass is clear. The pear is round and green, and the cheese is white and black. The bread is long and brown, and the loaf of bread is on the table. The table is brown, and the wall is brown.

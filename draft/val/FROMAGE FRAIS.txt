@@ -1,0 +1,25 @@
+val/FROMAGE FRAIS/000005.jpg: In this image we can see a food item on the cloth.
+val/FROMAGE FRAIS/000024.jpg: In this image we can see some food items.
+val/FROMAGE FRAIS/000018.jpg: In this image we can see a cake on the plate.
+val/FROMAGE FRAIS/000008.jpg: In this image we can see a container.
+val/FROMAGE FRAIS/000009.jpg: a package of gas dulce noanesti with a man on the label.
+val/FROMAGE FRAIS/000020.jpg: a white container with a label that says "promage" on it.
+val/FROMAGE FRAIS/000019.jpg: A plate of food with a slice of bread, an onion, and green onions. The bread is brown and has a white spread on it. The onion is purple and has a white spot on it. The green onions are on the bread and are also on the table. The plate is white and blue. The table is made of wood.
+val/FROMAGE FRAIS/000003.jpg: a diagram of the production of white cream.
+val/FROMAGE FRAIS/000012.jpg: A slice of bread with a spread of white cream and a red tomato on a white plate. The bread is brown and has a crumb on the surface. The cream is white and has a green speck in it. The tomato is red and has a green stem. The tomato is next to the bread. The plate is white. The background is white.
+val/FROMAGE FRAIS/000015.jpg: In this image we can see a bowl containing cream.
+val/FROMAGE FRAIS/000022.jpg: In this image we can see a plastic box containing some food item.
+val/FROMAGE FRAIS/000002.jpg: In this image I can see a plate, a knife, a glass and a cloth.
+val/FROMAGE FRAIS/000011.jpg: In this image we can see a table. On the table there is a plate, bowl, nuts, cheese, sauce and some food items.
+val/FROMAGE FRAIS/000013.jpg: In this image we can see a knife, food on the leaves and a cloth on the table.
+val/FROMAGE FRAIS/000000.jpg: In this image we can see some food items.
+val/FROMAGE FRAIS/000014.jpg: a container of fromage frais sits on a granite countertop.
+val/FROMAGE FRAIS/000023.jpg: In this image we can see food items on the plate. In the background of the image there is text. There is a cartoon of a hedgehog.
+val/FROMAGE FRAIS/000006.jpg: In this image we can see a container.
+val/FROMAGE FRAIS/000010.jpg: In this image we can see a food item on the wooden surface.
+val/FROMAGE FRAIS/000017.jpg: a piece of cheese that is wrapped in plastic and has the word nature on it.
+val/FROMAGE FRAIS/000021.jpg: In this image we can see a bowl, knife, bread and some food item on the wooden surface.
+val/FROMAGE FRAIS/000007.jpg: In this image we can see a white color object.
+val/FROMAGE FRAIS/000004.jpg: In this image we can see a cloth and a cream.
+val/FROMAGE FRAIS/000016.jpg: In this image we can see a container with some text on it.
+val/FROMAGE FRAIS/000001.jpg: a small piece of cheese is on a wooden board and a card that says ferme de rimandude.

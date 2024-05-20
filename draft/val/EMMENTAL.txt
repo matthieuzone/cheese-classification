@@ -1,0 +1,25 @@
+val/EMMENTAL/000005.jpg: In this image we can see a cheese on the black color object.
+val/EMMENTAL/000024.jpg: In this image we can see cheese on the wooden surface.
+val/EMMENTAL/000018.jpg: In this image we can see a bowl containing food.
+val/EMMENTAL/000008.jpg: In this image we can see a wooden surface. On the wooden surface there are slices of cheese.
+val/EMMENTAL/000009.jpg: a piece of cheese is displayed on a wooden surface.
+val/EMMENTAL/000020.jpg: In this image we can see a wooden board on the table. On the wooden board there is a cheese. On the right side of the image there is a bread.
+val/EMMENTAL/000019.jpg: In this image we can see some cheese.
+val/EMMENTAL/000003.jpg: In this image we can see cheese.
+val/EMMENTAL/000012.jpg: a red and white package of emmental cheese.
+val/EMMENTAL/000015.jpg: In this image we can see two bread pieces.
+val/EMMENTAL/000022.jpg: In this image we can see a cheese.
+val/EMMENTAL/000002.jpg: In this image we can see a cheese.
+val/EMMENTAL/000011.jpg: In this image we can see some food items on the straw.
+val/EMMENTAL/000013.jpg: In this image we can see a piece of cheese.
+val/EMMENTAL/000000.jpg: In this image we can see a piece of cheese on the white surface.
+val/EMMENTAL/000014.jpg: In this image we can see some food item on the wooden surface.
+val/EMMENTAL/000023.jpg: A cube of cheese with holes in it sits on a white plate. The cheese is yellow and has a hole in the center. There are two slices of cheese on the plate, one on top of the other. The cheese is cut into a cube and has a hole in each slice. The plate is white and has a logo on it. The logo is red and has a mountain on it. The text on the logo is white. The cheese is on a white plate and the plate is on a white surface.
+val/EMMENTAL/000006.jpg: In this image we can see a cheese and two tomatoes.
+val/EMMENTAL/000010.jpg: In this image we can see cheese pieces on the wooden surface.
+val/EMMENTAL/000017.jpg: In this image we can see a cheese on the wooden object.
+val/EMMENTAL/000021.jpg: In this image we can see a piece of cheese on the black color surface.
+val/EMMENTAL/000007.jpg: In this image we can see a cheese.
+val/EMMENTAL/000004.jpg: In this image we can see a cheese on the wooden surface.
+val/EMMENTAL/000016.jpg: In this image we can see a piece of cheese.
+val/EMMENTAL/000001.jpg: In this image we can see a cheese on the surface.

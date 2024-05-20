@@ -1,0 +1,25 @@
+val/MONT D’OR/000005.jpg: In this image I can see a person holding a food item. I can see the food item is in the wooden bowl. I can see the wooden table.
+val/MONT D’OR/000024.jpg: In this image we can see a spoon and a container.
+val/MONT D’OR/000018.jpg: In this image we can see a person dipping a food item into the cream.
+val/MONT D’OR/000008.jpg: a piece of cheese is on top of a round cheese container that says mont d'or.
+val/MONT D’OR/000009.jpg: In this image I can see a wooden table on which a bottle, a glass and a wooden object is placed. I can see a spoon and a knife on the wooden object.
+val/MONT D’OR/000020.jpg: In this image we can see food in a bowl and a fork.
+val/MONT D’OR/000019.jpg: two containers of mont d'or are on a table.
+val/MONT D’OR/000003.jpg: In this image we can see some food items in the bowls.
+val/MONT D’OR/000012.jpg: In this image we can see a food item on the table.
+val/MONT D’OR/000015.jpg: a man wearing a yellow jacket and glasses is standing behind a display of food.
+val/MONT D’OR/000022.jpg: In this image we can see two objects on the surface.
+val/MONT D’OR/000002.jpg: In this image we can see a bowl with some food item and a spoon in it. We can also see some food items.
+val/MONT D’OR/000011.jpg: a bunch of containers of mont d'or are stacked on top of each other.
+val/MONT D’OR/000013.jpg: In this image I can see a person holding a food item. I can see a glass of wine and a bread stick on the table.
+val/MONT D’OR/000000.jpg: In this image we can see a wooden table. On the table there is a bowl, spoon, leaves and food.
+val/MONT D’OR/000014.jpg: In this image we can see a food item in a container.
+val/MONT D’OR/000023.jpg: In this image we can see a cheese.
+val/MONT D’OR/000006.jpg: In this image we can see some food items on the wooden objects. In the background, we can see the wall and the ceiling.
+val/MONT D’OR/000010.jpg: In this image we can see a wooden table. On the table there is a bowl with a cloth in it. Also there are some leaves.
+val/MONT D’OR/000017.jpg: In this image we can see a wooden object and a knife on the wooden surface.
+val/MONT D’OR/000021.jpg: A plate of food with a spoon pouring cream into a bowl. The plate contains a variety of items, including a bowl of salad, a plate of meat, a plate of greens, and a plate of cheese. The spoon is pouring cream into the bowl, and the sauce is dripping from the spoon onto the plate. The table is made of wood, and the napkin is gray.
+val/MONT D’OR/000007.jpg: In this image we can see a food item in a bowl and a knife.
+val/MONT D’OR/000004.jpg: three containers of mont d'or are shown with one being open.
+val/MONT D’OR/000016.jpg: In this image we can see a knife and a food item on the wooden surface.
+val/MONT D’OR/000001.jpg: In this image we can see food in a bowl.

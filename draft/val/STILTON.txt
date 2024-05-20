@@ -1,0 +1,25 @@
+val/STILTON/000005.jpg: In this image we can see some food items.
+val/STILTON/000024.jpg: In this image we can see a black color tray on which there are some pieces of cheese.
+val/STILTON/000018.jpg: In this image we can see a cheese.
+val/STILTON/000008.jpg: In this image we can see a food item.
+val/STILTON/000009.jpg: In this image we can see a cheese, knife, nuts and some objects on the wooden surface.
+val/STILTON/000020.jpg: In this image we can see some food items on the wooden surface.
+val/STILTON/000019.jpg: In this image we can see a piece of cheese on the white surface.
+val/STILTON/000003.jpg: A large piece of blue cheese sits proudly on a black plate, its green mold glistening. The cheese is shaped like a triangle and has a white surface with a green mold. The plate is on a white surface, and the background is also white. The cheese has a brown edge and a brown spot on the side. The cheese is on a black tray, and the tray is on a black surface. The cheese has a green mold that looks like grass, and the green mold on the cheese is particularly prominent.
+val/STILTON/000012.jpg: In this image we can see a cookie.
+val/STILTON/000015.jpg: In this image we can see a piece of food on the surface. In the background there is a wooden wall.
+val/STILTON/000022.jpg: In this image we can see a cheese on the surface.
+val/STILTON/000002.jpg: In this image we can see two pieces of cheese.
+val/STILTON/000011.jpg: In this image we can see a piece of cheese.
+val/STILTON/000013.jpg: In this image I can see the food items on the wooden surface.
+val/STILTON/000000.jpg: In this image we can see a piece of cheese.
+val/STILTON/000014.jpg: In this image we can see a piece of cheese on the black surface.
+val/STILTON/000023.jpg: a jar of jam with the name catherine on it.
+val/STILTON/000006.jpg: In this image I can see the food item on the plate. The plate is in white and brown color. The plate is on the brown color surface.
+val/STILTON/000010.jpg: In this image we can see a piece of cheese.
+val/STILTON/000017.jpg: In this image we can see some food items.
+val/STILTON/000021.jpg: In this image we can see a cheese.
+val/STILTON/000007.jpg: In this image we can see some food items.
+val/STILTON/000004.jpg: In this image we can see a cake on the surface.
+val/STILTON/000016.jpg: In this image we can see some food items.
+val/STILTON/000001.jpg: A large piece of blue cheese sits proudly on a white table. The cheese is shaped like a cube and has a green mold growing on its surface. The cheese is yellow and has a white spot on its surface. The background of the image is white.

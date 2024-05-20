@@ -1,0 +1,25 @@
+val/TOMME DE VACHE/000005.jpg: In this image we can see a cheese and two nuts on the surface.
+val/TOMME DE VACHE/000024.jpg: In this image we can see a piece of cheese and a piece of plant.
+val/TOMME DE VACHE/000018.jpg: In this image we can see a cheese on the black color cloth.
+val/TOMME DE VACHE/000008.jpg: In this image we can see a wooden surface. On the surface there is a knife, bread and two plates with food items.
+val/TOMME DE VACHE/000009.jpg: In this image we can see a piece of cake and some nuts.
+val/TOMME DE VACHE/000020.jpg: In this image we can see a piece of cheese in a cover.
+val/TOMME DE VACHE/000019.jpg: In this image we can see two stones on the wooden surface. In the background, we can see the wooden logs.
+val/TOMME DE VACHE/000003.jpg: In this image we can see a cheese on the wooden surface.
+val/TOMME DE VACHE/000012.jpg: In this image we can see two pieces of cheese placed on the white surface.
+val/TOMME DE VACHE/000015.jpg: In this image we can see a bowl with some liquid and a wooden spoon.
+val/TOMME DE VACHE/000022.jpg: In this image we can see a food item on the tray.
+val/TOMME DE VACHE/000002.jpg: In this image we can see a cheese.
+val/TOMME DE VACHE/000011.jpg: In this image we can see a food item on the wooden surface.
+val/TOMME DE VACHE/000013.jpg: In this image we can see some food items on the wooden surface.
+val/TOMME DE VACHE/000000.jpg: In this image we can see a knife and a piece of cheese on the wooden object.
+val/TOMME DE VACHE/000014.jpg: In this image we can see a cube.
+val/TOMME DE VACHE/000023.jpg: In this image we can see a wooden table. On the table there is a cheese, flowers, leaves, nuts and a cloth.
+val/TOMME DE VACHE/000006.jpg: In this image we can see some cheese cubes, grapes and a glass.
+val/TOMME DE VACHE/000010.jpg: a display of cheese including jomme and a round piece of cheese.
+val/TOMME DE VACHE/000017.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/TOMME DE VACHE/000021.jpg: In this image we can see a knife and some white color object.
+val/TOMME DE VACHE/000007.jpg: In this image we can see some food item on the white surface.
+val/TOMME DE VACHE/000004.jpg: In this image we can see a piece of cheese on the cloth.
+val/TOMME DE VACHE/000016.jpg: In this image we can see a cheese on the wooden surface. In the background, we can see the wooden wall.
+val/TOMME DE VACHE/000001.jpg: In this image we can see a cake and a knife.

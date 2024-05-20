@@ -1,0 +1,25 @@
+val/PARMESAN/000005.jpg: A wooden cutting board with a large silver knife and a pile of cheese. The cheese is white and has been cut into small pieces. The knife is sharp and has a silver handle. The cutting board has a swirl design and the table is brown. There are also some crumbs from the cheese on the cutting board.
+val/PARMESAN/000024.jpg: In this image we can see a wooden table. On the table there is a knife and cheese.
+val/PARMESAN/000018.jpg: In this image we can see a cheese and a cheese grater on the wooden surface.
+val/PARMESAN/000008.jpg: In this image there is a wooden board on the table. On the board there are three pieces of cake. Beside the cake there are two leaves.
+val/PARMESAN/000009.jpg: In this image we can see a wooden board on which there is a knife and some food.
+val/PARMESAN/000020.jpg: a jar of grated parmesan cheese with a green lid.
+val/PARMESAN/000019.jpg: In this image we can see a cheese.
+val/PARMESAN/000003.jpg: a package of riviera parmesan cheese is shown.
+val/PARMESAN/000012.jpg: In this image we can see a piece of cake.
+val/PARMESAN/000015.jpg: In this image we can see a wooden board on the surface. On the wooden board we can see a piece of cheese and some leaves.
+val/PARMESAN/000022.jpg: a picture of parmesan cheese and grated parmesan cheese.
+val/PARMESAN/000002.jpg: In this image we can see a cheese.
+val/PARMESAN/000011.jpg: In this image we can see a cheese and a cheese grater on the white surface.
+val/PARMESAN/000013.jpg: a piece of cheese is sitting on a label that says "producteur fermier gaec le plane".
+val/PARMESAN/000000.jpg: In this image we can see some cheese placed on the wooden shelves.
+val/PARMESAN/000014.jpg: In this image we can see a piece of cheese.
+val/PARMESAN/000023.jpg: a bag of riviera parmesan cheese is shown against a black background.
+val/PARMESAN/000006.jpg: A plate of rice and vegetables with a fork. The plate is white, and the food is on the plate. The rice is yellow, and the vegetables are orange and yellow. The fork is silver, and the cheese is grated on the plate. The cutting board is wooden, and the cheese is on the cutting board. The food is in the bowl, and the fork is on the plate.
+val/PARMESAN/000010.jpg: In this image we can see a cheese on the surface.
+val/PARMESAN/000017.jpg: In this image we can see a cheese in a cover and two pieces of cheese on the surface.
+val/PARMESAN/000021.jpg: In this image we can see a wooden spoon with some food item on it.
+val/PARMESAN/000007.jpg: a piece of parmesan cheese that says parmigiano on it.
+val/PARMESAN/000004.jpg: A knife is firmly stuck in a piece of hard cheese on a wooden cutting board. The cheese is broken up into small pieces and scattered around the board. The knife has a wooden handle and a silver blade. The cheese is yellow and the cutting board is brown. The cheese is on a table and there is a large piece of cheese in the background.
+val/PARMESAN/000016.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/PARMESAN/000001.jpg: In this image we can see a wooden table. On the table there is a knife, cheese and leaves.

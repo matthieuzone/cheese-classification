@@ -1,0 +1,25 @@
+val/BRIE DE MELUN/000005.jpg: In this image we can see a plate with food and leaves.
+val/BRIE DE MELUN/000024.jpg: A large piece of white cheese sits proudly on a table, adorned with a green plant and a blue vase. The cheese has a textured surface and a white crust. A blue sign with white writing stands nearby, while a blue plastic container and a blue vase with green leaves adorn the table. The plant has long green leaves and the cheese is illuminated by a light shining on the plant. The background is gray, and the overall scene is characterized by a sense of tranquility and elegance.
+val/BRIE DE MELUN/000018.jpg: In this image we can see a food item on the wooden sticks.
+val/BRIE DE MELUN/000008.jpg: In this image we can see a cake.
+val/BRIE DE MELUN/000009.jpg: A display case filled with a variety of cheeses, including a large white round cheese, a round white cheese, and a large white cheese with a red and blue label. The cheese is wrapped in plastic and has a price tag attached to it. The price tag is yellow and has black writing on it. The cheese is also wrapped in a white paper and has a red and blue circle on the label. The cheese is on a shelf with a red and white cross on the paper. The cheese is also on a shelf with a white and red cross on the paper.
+val/BRIE DE MELUN/000020.jpg: In this image we can see a piece of cake on the wooden surface.
+val/BRIE DE MELUN/000019.jpg: In this image we can see a piece of food on the wooden surface.
+val/BRIE DE MELUN/000003.jpg: In this image we can see a piece of cheese on the surface.
+val/BRIE DE MELUN/000012.jpg: In this image we can see a cheese, three tomatoes and some nuts on the straw.
+val/BRIE DE MELUN/000015.jpg: A piece of cake sits proudly on a wooden table, adorned with a fork and a bottle. The table is adorned with a blue and white sign, a wooden spoon, and a bottle of beer. A loaf of bread sits next to the cake, while a bottle of beer rests on the table. The cake is a white cake with a brown crust, and the bread is a brown loaf. The fork is silver, and the spoon is wooden. The wall behind the table is blue and white, and the sign on the wall is red and white. The cake is cut in half, and the cheese is white.
+val/BRIE DE MELUN/000022.jpg: In this image we can see a collage of two images. In the first image we can see some food items placed on the table. In the second image we can see some food items placed on the table. In the background we can see the wall, light and some objects.
+val/BRIE DE MELUN/000002.jpg: In this image we can see a cake on the surface.
+val/BRIE DE MELUN/000011.jpg: In this image we can see a wooden surface. On the wooden surface there are two pieces of food.
+val/BRIE DE MELUN/000013.jpg: In this image we can see a piece of cake on the black color object.
+val/BRIE DE MELUN/000000.jpg: In this image we can see a knife and a food item on the wooden surface.
+val/BRIE DE MELUN/000014.jpg: In this image we can see a food item on the surface.
+val/BRIE DE MELUN/000023.jpg: In this image we can see a piece of cake on the wooden surface.
+val/BRIE DE MELUN/000006.jpg: In this image we can see a banana on the leaves.
+val/BRIE DE MELUN/000010.jpg: In this image we can see a food item on the wooden surface.
+val/BRIE DE MELUN/000017.jpg: In this image we can see a plate with food.
+val/BRIE DE MELUN/000021.jpg: In this image we can see some food items.
+val/BRIE DE MELUN/000007.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/BRIE DE MELUN/000004.jpg: In this image we can see a piece of food on the wooden surface.
+val/BRIE DE MELUN/000016.jpg: In this image we can see a piece of cake.
+val/BRIE DE MELUN/000001.jpg: In this image we can see a piece of cake on the surface.

@@ -1,0 +1,25 @@
+val/MUNSTER/000005.jpg: In this image we can see a plate, on the plate there is a food item, beside the plate there is a cloth.
+val/MUNSTER/000024.jpg: In this image we can see some food items in the plastic covers.
+val/MUNSTER/000018.jpg: A bowl of soup and bread on a table with a bottle of water. The bowl is orange, and the bread is sliced and toasted. There is also a slice of lemon on the tray, a glass of water, and a bottle of wine on the table. The utensils are on the table, and the napkin is on the table. The food is on the tray, and the lemon is on the tray.
+val/MUNSTER/000008.jpg: A cozy living room with a fireplace and a table, illuminated by a hanging light fixture. The room features a wooden chair, a small black stove, and a framed picture on the wall. A small wooden stool sits next to the fireplace, while a white chair is positioned in front of the table. A small black trash can sits on the floor, and a small white stool is positioned in front of the fireplace. The room also includes a wooden railing on the deck, a wooden table with chairs, and a small black stove.
+val/MUNSTER/000009.jpg: In this image we can see some food items.
+val/MUNSTER/000020.jpg: A slice of cheese is being served on a fork, with a piece of cake on a plate and a bowl of garlic. The cheese is on a blue plate, and the fork is holding a piece of cheese. The cake is a round cake with a textured surface, and the cheese has a textured surface as well. The plate has a blue design, and the bowl has a white design. The fork is silver, and the cheese is white. The cake is being served on a blue plate, and the cheese is being served on a white plate.
+val/MUNSTER/000019.jpg: In this image we can see some food items on the wooden surface.
+val/MUNSTER/000003.jpg: In this image we can see a plate on the table. On the plate there is a food item.
+val/MUNSTER/000012.jpg: A person is pouring wine into a glass at a table with a pizza. The table is set with a white plate, a glass, and a napkin. The pizza is on a cardboard box and the cheese is melted on top. The wine is being poured from a green bottle into a clear glass. The person is wearing a ring on their finger and a wedding band on their finger. The napkin is yellow and the flowers are yellow. The pizza is on a cardboard box and the cheese is melted on top of the pizza.
+val/MUNSTER/000015.jpg: In this image we can see a cake.
+val/MUNSTER/000022.jpg: In this image we can see a food item.
+val/MUNSTER/000002.jpg: In this image we can see a cake on the surface.
+val/MUNSTER/000011.jpg: In this image we can see a cheese.
+val/MUNSTER/000013.jpg: In this image we can see a food item in a bowl and chopsticks.
+val/MUNSTER/000000.jpg: In this image we can see some food items on the surface.
+val/MUNSTER/000014.jpg: In this image we can see a cake on the plate. Here we can see a fork. Here we can see a jar. Here we can see a flower.
+val/MUNSTER/000023.jpg: a yellow package with a woman on it that says munster lisbeth.
+val/MUNSTER/000006.jpg: In this image we can see a cake on the wooden sticks.
+val/MUNSTER/000010.jpg: In this image we can see some food items on the wooden surface.
+val/MUNSTER/000017.jpg: A large round piece of cheese sits proudly on a green table. The cheese is orange and has a textured surface. The cheese is circular and has a slight indentation in the center. The cheese is on a green cloth and has a green mat underneath. The cheese has a white mold on the surface and a white line running around the edge of the cheese. The cheese has a textured surface and a rough texture.
+val/MUNSTER/000021.jpg: a display of cheeses from dunster fermier are on a shelf.
+val/MUNSTER/000007.jpg: In this image we can see some food items.
+val/MUNSTER/000004.jpg: In this image we can see a wooden surface. On the wooden surface we can see a cheese.
+val/MUNSTER/000016.jpg: In this image we can see a food item on the wooden surface.
+val/MUNSTER/000001.jpg: In this image we can see a food item.

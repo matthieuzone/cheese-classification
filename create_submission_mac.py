@@ -4,6 +4,8 @@ import os
 from PIL import Image
 import pandas as pd
 import torch
+import easyocr
+import difflib
 
 #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device = torch.device("cpu")
@@ -39,16 +41,12 @@ def create_submission(cfg):
     )
     # Load model and checkpoint
     # Charger le modèle et le checkpoint
-    print("avant model")
-    model = hydra.utils.instantiate(cfg.model.instance).to(device)
-    print("apres")
+    model = hydra.utils.instantiate(cfg.model.instance)
     checkpoint = torch.load(cfg.checkpoint_path, map_location=torch.device('cpu'))
-    print(f"Loading model from checkpoint: {cfg.checkpoint_path}")
     
     model.load_state_dict(checkpoint)
     model.to(device)
     class_names = sorted(os.listdir(cfg.dataset.train_path))
-    print(class_names)
     
     # Create submission.csv
     submission = pd.DataFrame(columns=["id", "label"])

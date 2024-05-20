@@ -1,0 +1,2 @@
+val_with_text/MIMOLETTE/000023.jpg: 8 tranches de mimolette cora 200g
+val_with_text/MIMOLETTE/000017.jpg: a product from isigny de la mer is displayed on a white background.

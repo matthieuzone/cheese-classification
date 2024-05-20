@@ -1,0 +1,25 @@
+val/CAMEMBERT/000005.jpg: In this image we can see some food items on the plate.
+val/CAMEMBERT/000024.jpg: In this image we can see a table. On the table there is a cloth, plate, glass, cheese and a wooden object.
+val/CAMEMBERT/000018.jpg: In this image we can see a wooden object on which there is a cheese.
+val/CAMEMBERT/000008.jpg: a round container of soft ripened cheese made in normancy.
+val/CAMEMBERT/000009.jpg: a close up of a camembert president cheese
+val/CAMEMBERT/000020.jpg: A white plate with a round piece of cheese on it. The cheese is white and yellow, with a white crust. There is a slice of cheese on the plate, and a piece of cake on the side of the plate. The table is made of wood, and the plate is white. The cheese is melted, and there is a bubble in the cheese.
+val/CAMEMBERT/000019.jpg: In this image we can see a cake.
+val/CAMEMBERT/000003.jpg: In this image we can see a flower, cheese, apples and a cloth on the table.
+val/CAMEMBERT/000012.jpg: In this image we can see a cake on the black surface.
+val/CAMEMBERT/000015.jpg: In this image I can see a white color object on the white color paper. I can see the wooden surface.
+val/CAMEMBERT/000022.jpg: In this image we can see a cheese.
+val/CAMEMBERT/000002.jpg: In this image we can see some food items on the wooden surface.
+val/CAMEMBERT/000011.jpg: In this image we can see a cake on the table.
+val/CAMEMBERT/000013.jpg: In this image I can see a plate on which there is a cake.
+val/CAMEMBERT/000000.jpg: In this image we can see some food items on the wooden surface.
+val/CAMEMBERT/000014.jpg: In this image we can see some food items on the wooden surface.
+val/CAMEMBERT/000023.jpg: In this image I can see a plate which is in blue color and on the plate I can see some food items which are in brown and white color.
+val/CAMEMBERT/000006.jpg: In this image I can see a food item in the bowl. I can see a fork and a knife on the wooden board. I can see a glass on the table.
+val/CAMEMBERT/000010.jpg: In this image I can see a white color plate and on it I can see a white color food item.
+val/CAMEMBERT/000017.jpg: a round block of camembert cheese from france.
+val/CAMEMBERT/000021.jpg: In this image I can see a wooden board on which I can see a knife, a cheese and few other objects. I can see the blurred background.
+val/CAMEMBERT/000007.jpg: In this image we can see a cake.
+val/CAMEMBERT/000004.jpg: In this image we can see a cake on the table.
+val/CAMEMBERT/000016.jpg: A piece of cheese with a slice missing, showcasing a circular piece of cheese, a wedge of cheese, and a small red berry. The cheese has a green stem and a white wrapper. A small red berry sits on top of the cheese. The cheese is on a wooden surface, with a brown wooden table and a white wrapper on the cheese. The cheese has a white crust and a green stem. The cheese is cut into a triangle and a wedge of cheese is being taken out of the cheese.
+val/CAMEMBERT/000001.jpg: a piece of cheese is cut and placed on a board that says "camembest cheese".

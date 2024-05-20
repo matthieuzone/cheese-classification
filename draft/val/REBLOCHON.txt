@@ -1,0 +1,25 @@
+val/REBLOCHON/000005.jpg: In this image we can see some food items on the green color surface. In the background, we can see a wooden object.
+val/REBLOCHON/000024.jpg: In this image we can see a food item on the plate.
+val/REBLOCHON/000018.jpg: In this image we can see a piece of food on the surface. In the background there is a wooden wall.
+val/REBLOCHON/000008.jpg: In this image we can see two food items.
+val/REBLOCHON/000009.jpg: In this image we can see a food item on the wooden surface.
+val/REBLOCHON/000020.jpg: In this image we can see a food item in a bowl and a spoon on the wooden surface.
+val/REBLOCHON/000019.jpg: In this image we can see some food items, grapes and some other objects on the surface.
+val/REBLOCHON/000003.jpg: In this image we can see a cheese.
+val/REBLOCHON/000012.jpg: A large round white cheese sits on a wooden plate, with a knife resting on the plate next to it. The cheese is cut into a triangular piece and a small piece is already cut out of the cheese. The knife has a silver blade and an orange handle. The plate is made of wood and the cheese is on a wooden platter. The cheese is white and the knife handle is orange.
+val/REBLOCHON/000015.jpg: In this image we can see a cheese and a bread on the black color surface.
+val/REBLOCHON/000022.jpg: a yellow package of reblochon de savoy with a cow on the front.
+val/REBLOCHON/000002.jpg: In this image we can see a wooden object on which there is a cheese and some fruits.
+val/REBLOCHON/000011.jpg: In this image we can see some food items and a knife on the wooden surface.
+val/REBLOCHON/000013.jpg: In this image we can see a wooden object on the rock. In the background, we can see the grass, mountains and the sky.
+val/REBLOCHON/000000.jpg: A round piece of cheese sits on a brown wooden plate. The cheese is white with a brown crust and has a hole in the center. Two slices of cheese are cut from the round piece. The plate is made of wood and has a shadow on the surface. The background is blurry.
+val/REBLOCHON/000014.jpg: In this image we can see a food item on the wooden surface.
+val/REBLOCHON/000023.jpg: In this image we can see a cheese.
+val/REBLOCHON/000006.jpg: a brown package with a picture of a house and the words "reblochon fermier" on top.
+val/REBLOCHON/000010.jpg: In this image we can see food in a bowl.
+val/REBLOCHON/000017.jpg: In this image we can see some cheese placed on the table.
+val/REBLOCHON/000021.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/REBLOCHON/000007.jpg: In this image we can see a piece of cheese on the black surface. In the background, we can see a wooden object.
+val/REBLOCHON/000004.jpg: In this image we can see a cheese and three cherries on the table.
+val/REBLOCHON/000016.jpg: In this image we can see a piece of cheese on the surface.
+val/REBLOCHON/000001.jpg: A painting of a cow and cheese with a sign that reads "Le Reblochon de Savoie." The painting depicts a herd of cows grazing on grass, including a brown cow with a white face and a white and brown cow. A wooden sign with the words "Le Reblochon de Savoie" is also visible. The sky is blue with white clouds, and the mountains are in the background. A small wooden house and a small wooden building are also present in the image. The painting of the cow is in the center of the image, and a piece of cheese is next to the cow.
