@@ -35,8 +35,6 @@ class SDXLFineTunedGenerator:
             "stabilityai/stable-diffusion-xl-refiner-1.0", torch_dtype=torch.float16, use_safetensors=True, variant="fp16"
         )
         self.refiner.to("cuda")
-
-        prompt = "An image of BEAUFORT cheese."
         self.generator = torch.Generator("cuda")
         self.active_label = label
 
