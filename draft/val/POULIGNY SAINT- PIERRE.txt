@@ -1,0 +1,25 @@
+val/POULIGNY SAINT- PIERRE/000005.jpg: In this image we can see a cheese.
+val/POULIGNY SAINT- PIERRE/000024.jpg: In this image we can see a white color object.
+val/POULIGNY SAINT- PIERRE/000018.jpg: In this image we can see two pieces of food.
+val/POULIGNY SAINT- PIERRE/000008.jpg: In this image we can see some food items on the plate.
+val/POULIGNY SAINT- PIERRE/000009.jpg: In this image we can see a person's hand holding a metal object and there are two pieces of cheese on the chopping board.
+val/POULIGNY SAINT- PIERRE/000020.jpg: In this image we can see a white color object on the surface.
+val/POULIGNY SAINT- PIERRE/000019.jpg: In this image we can see a piece of food on the paper.
+val/POULIGNY SAINT- PIERRE/000003.jpg: In this image we can see a food item.
+val/POULIGNY SAINT- PIERRE/000012.jpg: In this image we can see a cheese on the surface.
+val/POULIGNY SAINT- PIERRE/000015.jpg: In this image we can see a rock.
+val/POULIGNY SAINT- PIERRE/000022.jpg: In this image we can see a piece of food on the mat. In the background, we can see the leaves.
+val/POULIGNY SAINT- PIERRE/000002.jpg: In this image we can see some food items on the cloth.
+val/POULIGNY SAINT- PIERRE/000011.jpg: In this image we can see a rock on the paper.
+val/POULIGNY SAINT- PIERRE/000013.jpg: In this image we can see some food items on the surface.
+val/POULIGNY SAINT- PIERRE/000000.jpg: In this image we can see a piece of food on the wooden surface.
+val/POULIGNY SAINT- PIERRE/000014.jpg: In this image we can see a pyramid shaped object on the surface.
+val/POULIGNY SAINT- PIERRE/000023.jpg: a piece of cheese with a gold label that says "brie" on it.
+val/POULIGNY SAINT- PIERRE/000006.jpg: In this image we can see a cheese.
+val/POULIGNY SAINT- PIERRE/000010.jpg: In this image we can see a cheese.
+val/POULIGNY SAINT- PIERRE/000017.jpg: two white and grey boxes of cheese with a label that says "brie de normandie" on it.
+val/POULIGNY SAINT- PIERRE/000021.jpg: In this image we can see a food item on the surface.
+val/POULIGNY SAINT- PIERRE/000007.jpg: In this image we can see some food items on the wooden object. In the background, we can see the wall.
+val/POULIGNY SAINT- PIERRE/000004.jpg: In this image we can see a piece of cheese on the surface.
+val/POULIGNY SAINT- PIERRE/000016.jpg: In this image we can see some food items.
+val/POULIGNY SAINT- PIERRE/000001.jpg: In this image we can see a food item on the wooden surface. In the background, we can see the glasses.

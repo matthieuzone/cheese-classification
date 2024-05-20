@@ -1,0 +1,9 @@
+val_with_text/COMTÉ/000005.jpg: Un gros plan d' un bloc de fromage sur une table.
+val_with_text/COMTÉ/000024.jpg: Un gros plan d' un morceau de fromage avec une bande de papier dessus.
+val_with_text/COMTÉ/000018.jpg: a piece of cheese with the word gouda on it.
+val_with_text/COMTÉ/000015.jpg: A close up of a wedge of cheese with a white background.
+val_with_text/COMTÉ/000022.jpg: a graphic showing the different types of cheeses and their names.
+val_with_text/COMTÉ/000002.jpg: Une image d' une marque de certification comte
+val_with_text/COMTÉ/000011.jpg: a logo de comte avec une cloche et un label.
+val_with_text/COMTÉ/000006.jpg: a piece of cheese with a knife and a green plant next to it.
+val_with_text/COMTÉ/000021.jpg: In this image we can see a logo.

@@ -1,0 +1,25 @@
+val/OSSAU- IRATY/000005.jpg: A table topped with an assortment of cheese and grapes. The table is made of wood and has a white cloth on it. There is a large round piece of cheese, a small round piece of cheese, a large round piece of cheese, and a piece of cheese on the table. There is also a bunch of red grapes, a bunch of black grapes, and a bunch of red berries. The grapes are on a wooden board. The cheese is on a wooden board. There is a shadow on the table. The mountains are in the background.
+val/OSSAU- IRATY/000024.jpg: a box of food with a bag of osterbrandy in it.
+val/OSSAU- IRATY/000018.jpg: In this image we can see a wooden surface. On the wooden surface there is a cheese.
+val/OSSAU- IRATY/000008.jpg: In this image we can see some food items.
+val/OSSAU- IRATY/000009.jpg: In this image we can see a piece of food on the white surface.
+val/OSSAU- IRATY/000020.jpg: In this image we can see a cheese and grapes on the surface.
+val/OSSAU- IRATY/000019.jpg: In this image we can see a piece of cheese on the white surface.
+val/OSSAU- IRATY/000003.jpg: In this image we can see a piece of cheese and a piece of plant.
+val/OSSAU- IRATY/000012.jpg: In this image we can see a piece of cheese on the wooden object.
+val/OSSAU- IRATY/000015.jpg: In this image we can see some cheese and a wooden object.
+val/OSSAU- IRATY/000022.jpg: a box of snacks and a magazine with a picture of a mountain and the word "austria" on it.
+val/OSSAU- IRATY/000002.jpg: a box of osau-fraty and a box of cerises.
+val/OSSAU- IRATY/000011.jpg: In this image we can see a cheese.
+val/OSSAU- IRATY/000013.jpg: In this image we can see a cheese.
+val/OSSAU- IRATY/000000.jpg: In this image we can see a piece of cheese.
+val/OSSAU- IRATY/000014.jpg: a jar of rare bird preserves sits next to a piece of cheese.
+val/OSSAU- IRATY/000023.jpg: A round cheese block with a slice missing. The cheese is yellow and has a brown crust. There is one slice of cheese on the table, and the cheese is cut into a triangle shape. The cheese is on a white background, and the background is white.
+val/OSSAU- IRATY/000006.jpg: In this image I can see a person holding a white color object. In the background I can see few bottles, few papers and a wall.
+val/OSSAU- IRATY/000010.jpg: In this image we can see a logo and some text on the surface.
+val/OSSAU- IRATY/000017.jpg: In this image we can see a piece of cheese and two grapes on the wooden surface.
+val/OSSAU- IRATY/000021.jpg: In this image I can see a white color object on the black color surface. In the background I can see the wall.
+val/OSSAU- IRATY/000007.jpg: In this image we can see a cheese and a knife on the wooden surface.
+val/OSSAU- IRATY/000004.jpg: a package of entre mont ossau-iraty cheese with a picture of a sheep on the front.
+val/OSSAU- IRATY/000016.jpg: In this image we can see a cheese.
+val/OSSAU- IRATY/000001.jpg: In this image we can see a cheese.

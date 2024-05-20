@@ -1,0 +1,25 @@
+val/NEUFCHATEL/000005.jpg: In this image we can see some food items on the surface.
+val/NEUFCHATEL/000024.jpg: A heart-shaped piece of cheese with a slice missing. The cheese is white with a white mold and a yellow center. There is a small hole in the cheese and a large hole in the cheese. The cheese is on a white surface and there is a shadow on the cheese. The cheese is shaped like a heart and the slice of cheese is on the right side of the heart.
+val/NEUFCHATEL/000018.jpg: In this image we can see some food items on the surface. In the background, we can see some trees and buildings.
+val/NEUFCHATEL/000008.jpg: In this image we can see some food items on the grill.
+val/NEUFCHATEL/000009.jpg: In this image we can see a heart shaped object. In the background there are leaves.
+val/NEUFCHATEL/000020.jpg: A close-up of a piece of white cheese on a pink plate. The cheese is shaped like a heart and has a white crust. There is a small piece of cheese on the plate next to the large piece. The cheese is being cut with a silver knife that has a black handle. The knife is resting on the cheese. The plate is pink and has a floral pattern. The background of the image is yellow and white.
+val/NEUFCHATEL/000019.jpg: a box of happy farms neufchatel cheese.
+val/NEUFCHATEL/000003.jpg: In this image we can see some food items.
+val/NEUFCHATEL/000012.jpg: In this image we can see a cake.
+val/NEUFCHATEL/000015.jpg: In this image we can see a piece of food.
+val/NEUFCHATEL/000022.jpg: a container of organic valley neuchatel cheese spread.
+val/NEUFCHATEL/000002.jpg: In this image we can see a heart shaped cake on the plate.
+val/NEUFCHATEL/000011.jpg: a heart shaped package of neufchâtel cheese on a wooden board.
+val/NEUFCHATEL/000013.jpg: In this image we can see a wooden surface. On the wooden surface there is a heart shaped object and some wheat.
+val/NEUFCHATEL/000000.jpg: In this image we can see a heart shaped object.
+val/NEUFCHATEL/000014.jpg: In this image we can see a group of people standing on the ground. Here we can see a wooden table, wooden pillar, grass, and buildings.
+val/NEUFCHATEL/000023.jpg: In this image we can see some food items in the box.
+val/NEUFCHATEL/000006.jpg: In this image we can see a food item on the white color surface.
+val/NEUFCHATEL/000010.jpg: In this image we can see some food items on the black color objects.
+val/NEUFCHATEL/000017.jpg: In this image we can see a cake on the black color object.
+val/NEUFCHATEL/000021.jpg: a heart shaped cheese package from alleaume neuchatel.
+val/NEUFCHATEL/000007.jpg: In this image we can see a heart shaped object.
+val/NEUFCHATEL/000004.jpg: In this image we can see some food items on the surface.
+val/NEUFCHATEL/000016.jpg: In this image we can see a group of people standing and holding a banner. In the background we can see buildings, sky and clouds.
+val/NEUFCHATEL/000001.jpg: In this image we can see a heart shaped cheese.

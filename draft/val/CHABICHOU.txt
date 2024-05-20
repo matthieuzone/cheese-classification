@@ -1,0 +1,25 @@
+val/CHABICHOU/000005.jpg: In this image we can see some food items on the white surface.
+val/CHABICHOU/000024.jpg: In this image I can see a food item on the white color plate. The plate is on the black color surface.
+val/CHABICHOU/000018.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/CHABICHOU/000008.jpg: a product from france called chabechou du poitou.
+val/CHABICHOU/000009.jpg: In this image we can see some food items on the wooden surface.
+val/CHABICHOU/000020.jpg: A white cylinder of food sits on a white plate, adorned with a purple flower and a green flower on the table cloth. The plate sits on a red wall, with a black pole and a white board on the wall behind it. The food is textured and has a rough texture. The background is blurry, and the overall image is characterized by a sense of simplicity and calm.
+val/CHABICHOU/000019.jpg: In this image we can see a wooden object on the surface.
+val/CHABICHOU/000003.jpg: In this image we can see a food item on the plate.
+val/CHABICHOU/000012.jpg: In this image we can see a piece of food.
+val/CHABICHOU/000015.jpg: A piece of white cheese sits on a white surface, with a white background. The cheese has a white mold and a white substance on its surface. Two pieces of cheese are visible, one large and one small. The large cheese has a white center and a white substance on its surface. The small cheese has a white center and a white substance on its surface. The cheese is cut in half, and the cut piece is next to the whole cheese. The cheese has a white background and a white substance on its surface.
+val/CHABICHOU/000022.jpg: In this image we can see a food item on the plate.
+val/CHABICHOU/000002.jpg: In this image we can see some food items on the black surface.
+val/CHABICHOU/000011.jpg: In this image we can see a food item on the surface.
+val/CHABICHOU/000013.jpg: A close-up of a banana on a cloth, showcasing a variety of textures and colors. The banana, a yellow fruit with a brown spot, rests on a striped cloth, adorned with green leaves and a green stem. The cloth, a white, green, and black striped material, has a black stripe running down its center. The banana's peel, a brown and white substance, is visible on the side of the fruit. The background is blurry, creating a sense of depth and mystery.
+val/CHABICHOU/000000.jpg: In this image we can see some food items on the wooden surface.
+val/CHABICHOU/000014.jpg: In this image we can see some food items.
+val/CHABICHOU/000023.jpg: In this image I can see a white color plate and on it I can see two food items. I can also see this image is little bit blurry from background.
+val/CHABICHOU/000006.jpg: a poster with a picture of a cheese and the words chabicou du poitou.
+val/CHABICHOU/000010.jpg: In this image we can see a building, there is a glass door, we can see the reflection of trees, plants, a dog and a bench in the glass door, we can see the text on the wall.
+val/CHABICHOU/000017.jpg: a small piece of charcuterie is wrapped in a wooden bowl.
+val/CHABICHOU/000021.jpg: A small piece of cheese sits proudly on a white plate, adorned with a vibrant blue flower and a green leaf. The cheese, adorned with a yellow label and a red and white sticker, exudes a sweet aroma. A large green leaf rests beneath the cheese, while a small blue flower blooms nearby. The plate, adorned with a green border and a braided edge, sits on a white tray with a green border. The cheese is surrounded by a variety of other details, including a small blue flower, a green leaf, and a small white flower. The overall composition is characterized by a harmonious balance of colors, textures, and shapes.
+val/CHABICHOU/000007.jpg: In this image we can see a plastic container and a piece of food on the surface.
+val/CHABICHOU/000004.jpg: In this image we can see a cheese and two biscuits on the black surface.
+val/CHABICHOU/000016.jpg: a poster showing some food and the words driving the chabichou goat cheese route.
+val/CHABICHOU/000001.jpg: In this image we can see a piece of cheese.

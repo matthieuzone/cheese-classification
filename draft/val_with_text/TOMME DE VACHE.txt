@@ -1,0 +1,2 @@
+val_with_text/TOMME DE VACHE/000018.jpg: In this image we can see a cheese on the cloth.
+val_with_text/TOMME DE VACHE/000010.jpg: A display case filled with various cheeses, including a large wheel of Jomme cheese.

@@ -1,0 +1,25 @@
+val/SAINT- FÉLICIEN/000005.jpg: In this image we can see a food item on the black surface.
+val/SAINT- FÉLICIEN/000024.jpg: In this image we can see some food items on the wooden surface.
+val/SAINT- FÉLICIEN/000018.jpg: In this image we can see a white color object on the black color surface.
+val/SAINT- FÉLICIEN/000008.jpg: In this image we can see a knife, bread and a cheese on the wooden surface.
+val/SAINT- FÉLICIEN/000009.jpg: In this image we can see some food items on the surface. In the background, we can see a wooden object.
+val/SAINT- FÉLICIEN/000020.jpg: In this image we can see a plastic box containing a food item.
+val/SAINT- FÉLICIEN/000019.jpg: In this image we can see some food items on the wooden surface.
+val/SAINT- FÉLICIEN/000003.jpg: In this image we can see some food items on the plate.
+val/SAINT- FÉLICIEN/000012.jpg: In this image we can see some food items.
+val/SAINT- FÉLICIEN/000015.jpg: In this image we can see food items on the black color object. In the background, we can see the paper with some text.
+val/SAINT- FÉLICIEN/000022.jpg: In this image we can see a food item on the black color surface.
+val/SAINT- FÉLICIEN/000002.jpg: A baker is shaping dough to make bagels. The dough is being shaped into a circle and is being placed on a tray. The baker is wearing a white apron and has a white cup on the table. The dough is being shaped on a metal tray and the bagels are being shaped on a metal tray. The baker is making bagels in a factory.
+val/SAINT- FÉLICIEN/000011.jpg: In this image we can see a food item in a cardboard box.
+val/SAINT- FÉLICIEN/000013.jpg: A bowl of food on a table with grapes and nuts. The bowl is red and black, and the food in the bowl includes a round piece of cheese, a green grape, and a brown nut. The grapes are green, and the nut is brown. The table is silver, and the placemat is also silver. The apple is green, and it is next to the bowl of food. The apple is round, and the bowl is round. The food in the bowl is sliced, and the cheese is sliced.
+val/SAINT- FÉLICIEN/000000.jpg: In this image we can see a bowl with some food item.
+val/SAINT- FÉLICIEN/000014.jpg: In this image we can see some food items on the wooden surface.
+val/SAINT- FÉLICIEN/000023.jpg: a round piece of food with a label that says saint-felicien.
+val/SAINT- FÉLICIEN/000006.jpg: In this image we can see a bowl, leaves, nuts and some food item.
+val/SAINT- FÉLICIEN/000010.jpg: A knife and a piece of bread are on a wooden cutting board. The knife has a black handle and a silver dot on the handle. The bread is on the cutting board and is brown. The cheese is white and is on the cutting board next to the bread. The cheese is also on the knife. The knife is cutting the cheese. The bread is being cut. The cheese is being cut into a slice.
+val/SAINT- FÉLICIEN/000017.jpg: In this image we can see a cake.
+val/SAINT- FÉLICIEN/000021.jpg: In this image we can see a cheese.
+val/SAINT- FÉLICIEN/000007.jpg: In this image we can see a cheese in a bowl.
+val/SAINT- FÉLICIEN/000004.jpg: a piece of cheese with a label that says "gouda" on it.
+val/SAINT- FÉLICIEN/000016.jpg: In this image we can see a cheese.
+val/SAINT- FÉLICIEN/000001.jpg: In this image we can see a white color object on the black color surface.

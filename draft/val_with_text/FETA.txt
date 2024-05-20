@@ -1,0 +1,6 @@
+val_with_text/FETA/000005.jpg: a package of l'ancêtre bio organic feta cheese
+val_with_text/FETA/000024.jpg: a container of feta cheese with a blue label.
+val_with_text/FETA/000003.jpg: a container of krinos feta cheese with a blue label.
+val_with_text/FETA/000002.jpg: a package of l'ancêtre bio-organic feta cheese.
+val_with_text/FETA/000006.jpg: a container of salata feta by kaiser on a white background.
+val_with_text/FETA/000017.jpg: a container of feta cheese from casa azzurra.

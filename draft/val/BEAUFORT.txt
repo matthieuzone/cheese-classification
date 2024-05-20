@@ -1,0 +1,25 @@
+val/BEAUFORT/000005.jpg: In this image we can see some cheese blocks and cheese cubes on the wooden surface. In the background, we can see a wooden wall.
+val/BEAUFORT/000024.jpg: In this image we can see some food items on the wooden objects.
+val/BEAUFORT/000018.jpg: A large block of cheese sits on a white cloth on a brown table. The cheese is white and has a brown crust. A slice of cheese is cut from the block and placed on a white and red napkin. The napkin is on a brown table. The table is made of stone. There is a small piece of cheese on the table next to the large block. The cheese is on a cloth. The cloth is white and red. The cheese is white and has a brown crust.
+val/BEAUFORT/000008.jpg: A large, round cheese with a slice missing. The cheese is yellow and has a textured surface. There is a small hole in the cheese, and a piece of the cheese is being cut from the cake. The cheese is on a white background, and there is a white background behind the cheese. The cheese has a green label on the side, and there is a blue label on the side of the cheese. The cheese is cut into a triangle, and there is a small triangle of cheese on the table.
+val/BEAUFORT/000009.jpg: In this image we can see a cheese, wine bottle, glass and an apple.
+val/BEAUFORT/000020.jpg: In this image we can see a piece of cheese on the surface.
+val/BEAUFORT/000019.jpg: A block of cheese sits proudly on a white table, adorned with a brown label and a picture of a cow. The cheese is yellow and has a rectangular shape. A white counter and a white table provide a simple yet functional backdrop for the cheese. A glass case filled with food sits behind the cheese, while a white box and a white container with a lid are positioned on the counter. The light is on, casting long shadows across the table. The overall atmosphere is calm and inviting.
+val/BEAUFORT/000003.jpg: A wooden board with a cheese wheel and slices of cheese. The cheese is yellow and the slices are on a wooden platter. There is a white cloth bag tied around the cheese and a white cloth bag on the cheese. The cheese is on a wooden platter and there is a wooden board under the cheese. The cheese is cut into slices and there are three slices of cheese on the platter. The cheese is yellow and the slices are on a wooden platter.
+val/BEAUFORT/000012.jpg: In this image we can see a piece of cake.
+val/BEAUFORT/000015.jpg: In this image we can see a piece of cheese.
+val/BEAUFORT/000022.jpg: A large block of cheese sits proudly on a black rectangular plate. The cheese is white with a brown crust and a textured surface. The plate is made of stone and has a dark gray edge. The cheese is on a slate, which is also black. The background is white. The cheese is rectangular and has a rounded edge. There is a small hole in the cheese. The cheese is covered in a white substance.
+val/BEAUFORT/000002.jpg: In this image we can see a cake on the plate.
+val/BEAUFORT/000011.jpg: In this image we can see a piece of cheese on the black surface.
+val/BEAUFORT/000013.jpg: A large piece of cheese sits proudly on a white background, its golden brown surface reflecting the light. The cheese is shaped like a triangle and has a rounded edge. A red and yellow logo adorns the cheese, while a red and yellow sticker is affixed to the side. The cheese is surrounded by a white background and a yellow and red circle. A small white speck on the cheese and a small white speck on the edge of the cheese add a touch of whimsy. The cheese is also adorned with a red and yellow sticker and a red and yellow circle.
+val/BEAUFORT/000000.jpg: In this image we can see a cake.
+val/BEAUFORT/000014.jpg: In this image we can see a piece of cake.
+val/BEAUFORT/000023.jpg: In this image we can see a piece of cheese on the wooden surface.
+val/BEAUFORT/000006.jpg: In this image we can see a piece of cake.
+val/BEAUFORT/000010.jpg: In this image we can see a wooden object on which there is a cheese.
+val/BEAUFORT/000017.jpg: In this image we can see a piece of cheese.
+val/BEAUFORT/000021.jpg: In this image we can see a piece of cheese on the black surface.
+val/BEAUFORT/000007.jpg: a piece of cheese on a wooden plate with the number 2015 on it.
+val/BEAUFORT/000004.jpg: In this image I can see a plate which is black in color and on the plate I can see few pieces of cheese and a bottle.
+val/BEAUFORT/000016.jpg: In this image I can see few cheese blocks.
+val/BEAUFORT/000001.jpg: In this image I can see a person wearing white color dress and white color cap is standing and holding a white color object. In the background I can see few machines and few lights.

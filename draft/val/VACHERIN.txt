@@ -1,0 +1,25 @@
+val/VACHERIN/000005.jpg: In this image we can see a spoon in the bowl.
+val/VACHERIN/000024.jpg: In this image we can see a bottle, glass, cheese, nuts and some food items on the table.
+val/VACHERIN/000018.jpg: a piece of cheese with the words "fondue" on it.
+val/VACHERIN/000008.jpg: A bowl of cream cheese with a spoon and crackers. The bowl is white with black writing and has a silver spoon resting in the cheese. The cream cheese is white and fluffy, and the crackers are brown and crispy. There is also a piece of bread on the side of the bowl. The spoon is made of metal and has a silver handle. The bowl is full of cream cheese, and the crackers are arranged in a pile next to the bowl.
+val/VACHERIN/000009.jpg: In this image we can see a piece of cake on the plate.
+val/VACHERIN/000020.jpg: In this image we can see a food item on the plate.
+val/VACHERIN/000019.jpg: In this image we can see a piece of cheese and strawberries on the table.
+val/VACHERIN/000003.jpg: In this image we can see two blocks of cheese.
+val/VACHERIN/000012.jpg: In this image we can see a wooden surface. On the wooden surface there is a box.
+val/VACHERIN/000015.jpg: In this image we can see a painting.
+val/VACHERIN/000022.jpg: In this image we can see a cake on the surface.
+val/VACHERIN/000002.jpg: In this image we can see a piece of cake.
+val/VACHERIN/000011.jpg: In this image we can see a piece of cheese on the wooden object.
+val/VACHERIN/000013.jpg: In this image we can see a piece of food on the black surface.
+val/VACHERIN/000000.jpg: In this image we can see a wooden bowl with some food item and a spoon in it.
+val/VACHERIN/000014.jpg: A large piece of cheese with a slice missing. The cheese is yellow and has a brown label. There is a mountain on the label, and the cheese is shaped like a circle. The cheese is cut into a triangle and there is a small triangle of cheese on top of the large piece. The cheese is also cut into a small triangle and there is a small triangle of cheese on top of the large piece. The cheese is on a wooden block and there is a small piece of cheese on top of the large piece.
+val/VACHERIN/000023.jpg: A large piece of white cheese sits on a black table. The cheese has a brown crust and a white surface with a textured texture. The cheese is in a triangular shape and has a rounded edge. The background is black. The cheese has a white mold on the surface. The cheese has a shadow on the table.
+val/VACHERIN/000006.jpg: In this image we can see a cake on the surface.
+val/VACHERIN/000010.jpg: a wooden container with a pink substance in it and the word "vacheron" on the lid.
+val/VACHERIN/000017.jpg: a large block of vacherin cheese is displayed on a wooden block.
+val/VACHERIN/000021.jpg: In this image we can see a food item in a bowl.
+val/VACHERIN/000007.jpg: In this image I can see number of cheese on the wooden racks.
+val/VACHERIN/000004.jpg: In this image we can see some food items.
+val/VACHERIN/000016.jpg: A plate of ice cream with berries and sauce. The plate is white, and the food is on a white plate. There is a slice of cake on the plate, and the cake is white. The ice cream is white, and the sauce is red. There is a glass of water on the table, and a red napkin under the plate. The napkin is red. The fruit on the plate includes a blueberry, a raspberry, and a strawberry. The fruit is red. The dessert is on the plate.
+val/VACHERIN/000001.jpg: a package of food that says "belhaven" on it.

@@ -1,0 +1,25 @@
+val/MOTHAIS/000005.jpg: In this image we can see some food items on the wooden surface.
+val/MOTHAIS/000024.jpg: In this image we can see a food item on the leaf.
+val/MOTHAIS/000018.jpg: In this image we can see some food items on the wooden surface.
+val/MOTHAIS/000008.jpg: In this image we can see a food item on the wooden surface.
+val/MOTHAIS/000009.jpg: In this image we can see a food item on the wooden surface.
+val/MOTHAIS/000020.jpg: In this image we can see a food item on the leaves.
+val/MOTHAIS/000019.jpg: In this image we can see a piece of food on the wooden surface.
+val/MOTHAIS/000003.jpg: In this image we can see a food item on the surface. In the background there is a wall.
+val/MOTHAIS/000012.jpg: In this image we can see a food item and two leaves.
+val/MOTHAIS/000015.jpg: a cheese on a board in front of a sign for la belle fromageserie.
+val/MOTHAIS/000022.jpg: In this image we can see a food item on the leaf.
+val/MOTHAIS/000002.jpg: In this image we can see a food item.
+val/MOTHAIS/000011.jpg: In this image we can see some food items on the wooden surface.
+val/MOTHAIS/000013.jpg: A piece of white cheese sits proudly on a wooden table, adorned with a variety of fresh vegetables. The table is adorned with a green leaf, a bunch of green parsley, and a red tomato. The cheese is surrounded by a red tomato, a yellow tomato, and a green tomato. The leaves are green, and the background is dark. The overall composition is simple yet elegant, creating a visually appealing image of a healthy and flavorful meal.
+val/MOTHAIS/000000.jpg: In this image we can see a food item on the surface.
+val/MOTHAIS/000014.jpg: a woman is holding a board with food items and the text is written as ici.
+val/MOTHAIS/000023.jpg: In this image we can see a food item.
+val/MOTHAIS/000006.jpg: In this image we can see some food items.
+val/MOTHAIS/000010.jpg: In this image we can see a food item on the leaf.
+val/MOTHAIS/000017.jpg: a cheese product with a label that says "methais" on it.
+val/MOTHAIS/000021.jpg: In this image we can see a white color object on the black color surface.
+val/MOTHAIS/000007.jpg: a round piece of cheese with a white label that says "le coteau" on it.
+val/MOTHAIS/000004.jpg: In this image we can see a piece of cheese.
+val/MOTHAIS/000016.jpg: a product in a white color with a blue color label.
+val/MOTHAIS/000001.jpg: In this image we can see a food item on the wooden surface.

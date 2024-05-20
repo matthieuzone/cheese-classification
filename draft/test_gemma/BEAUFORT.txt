@@ -1,0 +1,2 @@
+test_gemma/BEAUFORT/000009.jpg: In this image we can see a cheese, wine bottle, glass and an apple.
+test_gemma/BEAUFORT/000016.jpg: In this image I can see few cheese blocks.

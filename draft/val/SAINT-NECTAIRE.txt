@@ -1,0 +1,25 @@
+val/SAINT-NECTAIRE/000005.jpg: In this image we can see a piece of cheese.
+val/SAINT-NECTAIRE/000024.jpg: A large round piece of cheese with a slice missing. The cheese is yellow and has a white mold on the top. There is a shadow on the ground next to the cheese. The cheese is on a stone surface. There is a small hole in the cheese. The cheese is cut into a wedge. The wedge of cheese is on the edge of the stone. The cheese is on a rock. The rock is brown. The cheese is yellow and has a white mold on the top.
+val/SAINT-NECTAIRE/000018.jpg: In this image we can see some food items.
+val/SAINT-NECTAIRE/000008.jpg: In this image we can see a piece of cheese.
+val/SAINT-NECTAIRE/000009.jpg: In this image we can see a food item on the wooden surface.
+val/SAINT-NECTAIRE/000020.jpg: In this image we can see a cheese.
+val/SAINT-NECTAIRE/000019.jpg: a small piece of saint nectarine cheese sits on a white background.
+val/SAINT-NECTAIRE/000003.jpg: In this image we can see a piece of cake.
+val/SAINT-NECTAIRE/000012.jpg: In this image we can see a cheese on the white color surface.
+val/SAINT-NECTAIRE/000015.jpg: In this image we can see a bread and a cheese on the wooden surface.
+val/SAINT-NECTAIRE/000022.jpg: In this image we can see a cheese.
+val/SAINT-NECTAIRE/000002.jpg: In this image we can see two pieces of cheese on the black surface.
+val/SAINT-NECTAIRE/000011.jpg: In this image we can see a cheese on the wooden surface.
+val/SAINT-NECTAIRE/000013.jpg: In this image we can see a piece of cheese.
+val/SAINT-NECTAIRE/000000.jpg: two pieces of cheese are on top of a label that says "producteur fermier gaec le plane".
+val/SAINT-NECTAIRE/000014.jpg: In this image we can see a cake on the wooden object. On the right side of the image we can see some objects. At the bottom of the image we can see some text.
+val/SAINT-NECTAIRE/000023.jpg: In this image we can see a cake on the wooden surface. In the background there are rocks and plants.
+val/SAINT-NECTAIRE/000006.jpg: In this image we can see a piece of food.
+val/SAINT-NECTAIRE/000010.jpg: In this image we can see some food items on the wooden surface.
+val/SAINT-NECTAIRE/000017.jpg: In this image we can see a cake on the wooden object. On the right side of the image we can see some objects. At the bottom of the image we can see some text.
+val/SAINT-NECTAIRE/000021.jpg: In this image we can see some food items.
+val/SAINT-NECTAIRE/000007.jpg: In this image we can see a knife, cheese, almonds and a plastic cover on the table.
+val/SAINT-NECTAIRE/000004.jpg: In this image we can see a biscuit on the white surface.
+val/SAINT-NECTAIRE/000016.jpg: In this image we can see two pieces of cheese on the black surface.
+val/SAINT-NECTAIRE/000001.jpg: In this image we can see a cheese.

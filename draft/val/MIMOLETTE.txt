@@ -1,0 +1,25 @@
+val/MIMOLETTE/000005.jpg: In this image we can see a cheese on the wooden surface.
+val/MIMOLETTE/000024.jpg: In this image we can see a piece of food on the white surface.
+val/MIMOLETTE/000018.jpg: In this image we can see a food item in a bowl and a spoon on the cloth.
+val/MIMOLETTE/000008.jpg: In this image we can see a wooden object on the wooden surface. In the background, we can see the wall.
+val/MIMOLETTE/000009.jpg: In this image we can see a wooden surface. On the wooden surface we can see a piece of food.
+val/MIMOLETTE/000020.jpg: In this image we can see a ball.
+val/MIMOLETTE/000019.jpg: In this image we can see a piece of food.
+val/MIMOLETTE/000003.jpg: In this image I can see a plate and on it I can see a knife and two pieces of food. I can also see this image is little bit in pink color.
+val/MIMOLETTE/000012.jpg: In this image we can see a plate on the table. On the plate there are two pieces of food.
+val/MIMOLETTE/000015.jpg: In this image we can see a cheese slice.
+val/MIMOLETTE/000022.jpg: In this image we can see a piece of food.
+val/MIMOLETTE/000002.jpg: In this image we can see a piece of food.
+val/MIMOLETTE/000011.jpg: In this image we can see a food item.
+val/MIMOLETTE/000013.jpg: In this image we can see some food items on the wooden surface.
+val/MIMOLETTE/000000.jpg: In this image we can see some food items on the surface.
+val/MIMOLETTE/000014.jpg: In this image we can see some food items on the wooden object.
+val/MIMOLETTE/000023.jpg: In this image we can see a packet. In the packet there is a picture of a burger and some text.
+val/MIMOLETTE/000006.jpg: In this image we can see a wooden object. On the wooden object we can see a piece of food.
+val/MIMOLETTE/000010.jpg: In this image we can see a slice of cheese and a piece of bread.
+val/MIMOLETTE/000017.jpg: a product from the island of st. mary called mumolette extra-vielle cassante.
+val/MIMOLETTE/000021.jpg: In this image we can see a cheese and two pieces of it.
+val/MIMOLETTE/000007.jpg: In this image we can see a food item.
+val/MIMOLETTE/000004.jpg: In this image we can see a bowl with food items and a carrot on the table. In the background, we can see a person.
+val/MIMOLETTE/000016.jpg: In this image we can see a piece of cheese.
+val/MIMOLETTE/000001.jpg: In this image we can see a piece of fruit, a nut and a leaf on the plate.

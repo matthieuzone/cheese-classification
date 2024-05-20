@@ -1,0 +1,25 @@
+val/MORBIER/000005.jpg: In this image we can see a person's hand and there are some objects.
+val/MORBIER/000024.jpg: In this image we can see a piece of cheese on the table.
+val/MORBIER/000018.jpg: In this image we can see a piece of cake on the surface.
+val/MORBIER/000008.jpg: In this image we can see a piece of cheese on the wooden object.
+val/MORBIER/000009.jpg: In this image we can see a food item on the wooden object.
+val/MORBIER/000020.jpg: In this image we can see some food items on the cloth, knife and some objects on the wooden surface.
+val/MORBIER/000019.jpg: In this image we can see some food items on the black surface.
+val/MORBIER/000003.jpg: In this image we can see some food items on the wooden surface.
+val/MORBIER/000012.jpg: In this image we can see a cake.
+val/MORBIER/000015.jpg: In this image we can see some food items on the wooden surface.
+val/MORBIER/000022.jpg: In this image we can see some food items on the wooden objects. In the background, we can see the sky with clouds.
+val/MORBIER/000002.jpg: In this image we can see a piece of cake on the white color surface.
+val/MORBIER/000011.jpg: In this image we can see a cheese.
+val/MORBIER/000013.jpg: In this image we can see a knife and some food on the wooden surface.
+val/MORBIER/000000.jpg: In this image we can see a cake.
+val/MORBIER/000014.jpg: In this image we can see a piece of cake.
+val/MORBIER/000023.jpg: In this image we can see two pieces of cheese on the wooden surface.
+val/MORBIER/000006.jpg: In this image we can see a piece of cheese.
+val/MORBIER/000010.jpg: In this image we can see a piece of cheese on the surface. In the background, we can see leaves.
+val/MORBIER/000017.jpg: In this image we can see a piece of cheese on the cloth.
+val/MORBIER/000021.jpg: In this image we can see some food items on the surface.
+val/MORBIER/000007.jpg: A large, sharp knife is firmly stuck in a block of cheese on a wooden table. The knife has a black handle and a silver blade. The cheese is a large block of yellow cheese with a black line running through it. The table is made of wood and has a brown surface. The cheese is on a wooden board and there is a shadow on the table.
+val/MORBIER/000004.jpg: In this image we can see a cake on the platform.
+val/MORBIER/000016.jpg: a piece of cheese with a label that says "arnaud" on it.
+val/MORBIER/000001.jpg: In this image we can see a piece of cheese on the rocks. In the background there is a wooden wall.

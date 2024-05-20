@@ -49,7 +49,7 @@ class DataModule:
             ),
             "real_val": DataLoader(
                 self.real_images_val_dataset,
-                batch_size=self.batch_size,
+                batch_size=1,
                 shuffle=False,
                 num_workers=self.num_workers,
             ),
