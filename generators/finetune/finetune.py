@@ -1,6 +1,7 @@
 import subprocess
 import os
 import time
+import psutil
 
 with open("list_of_cheese.txt", "r") as f:
     labels = f.readlines()
@@ -18,7 +19,7 @@ def main():
         '--report_to=wandb',
         '--lr_scheduler=constant',
         '--lr_warmup_steps=0',
-        '--max_train_steps=50',
+        '--max_train_steps=500',
         #'--validation_epochs=25',
         '--enable_xformers_memory_efficient_attention',
         '--gradient_checkpointing',
@@ -31,13 +32,15 @@ def main():
     roor_output_dir = "dataset/finetune"
     for label in labels:
             args[l  ] = f'--instance_data_dir={root_data_dir}/{label}'
-            args[l+1] = f'--instance_prompt=a photo of {label} cheese'
-            #args[l+2] = f'--validation_prompt=A photo of {label} cheese on a plate'
-            args[l+2] = f'--output_dir={roor_output_dir}/{label}2'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E").replace("Ê", "E")
+            args[l+1] = f'--instance_prompt=a photo of sks cheese'
+            args[l+2] = f'--validation_prompt=A photo of sks cheese on a plate'
+            args[l+2] = f'--output_dir={roor_output_dir}/{label}ter'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E").replace("Ê", "E")
             subprocess.run(["accelerate", "launch", "generators/finetune/train_dreambooth_lora_sdxl.py"] + args)
     print("\n\nDone")
     
 if __name__ == "__main__":
+    while psutil.pid_exists(1125944):
+        time.sleep(60)
     main()
 
 

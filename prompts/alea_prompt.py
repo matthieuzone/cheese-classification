@@ -4,11 +4,12 @@ import os
 repertoire = 'prompts'
 
 list_of_cheese = []
-with open(os.path.join(repertoire, 'list_of_cheese.txt'), 'r') as f:
+with open(os.path.join('../../../list_of_cheese.txt'), 'r') as f:
     list_of_cheese += f.readlines()
 
 def choisir(fichier,repertoire,label):
     adjectifs = []
+    lines = []
     with open(os.path.join(repertoire, fichier), 'r') as f:
         lines += f.readlines()
     for line in lines:
@@ -27,13 +28,13 @@ def choisir(fichier,repertoire,label):
 #syntaxe_eng_simple = "Create an image of the cheese '" + choisir_fromage('list_of_cheese.txt').lower()+"'"
 #syntaxe_eng_complex = "Create an image of the cheese '" + choisir_fromage('list_of_cheese.txt').lower()+"' "+ choisir_adjectif('adjectifs_eng.txt').lower()+ " and " + choisir_adjectif('adjectifs_eng.txt').lower() + " seen from " +choisir_adjectif('vue_eng.txt')+ ", placed on " +choisir_adjectif('arriere_plan_eng.txt')
 
-def create_prompt(label) :
+def create_prompt(label, repertoire):
     a = ("a picture of a" if random.random() > 0.5 else "a picture of a few")
-    b = " " + choisir('before.txt').lower()
-    b2 = " " + choisir('before.txt').lower()
+    b = " " + choisir('before.txt',repertoire, label).lower()
+    b2 = " " + choisir('before.txt',repertoire, label).lower()
     c = " " + label + " cheese"
-    d = " " + choisir('after.txt').lower()
-    d2 = " " + choisir('after.txt').lower()
+    d = " " + choisir('after.txt',repertoire, label).lower()
+    d2 = " " + choisir('after.txt',repertoire, label).lower()
     syntaxe = a
     p = 0.8
     p2 = 0.3
@@ -41,10 +42,11 @@ def create_prompt(label) :
         syntaxe += b
     if random.random() > 1-p2:
         syntaxe += b2
+    syntaxe += c
     if random.random() > 1-p:
-        syntaxe += c
-    if random.random() > 1-p2:
         syntaxe += d
+    if random.random() > 1-p2:
+        syntaxe += d2
     return syntaxe
 
 #print(syntaxe)

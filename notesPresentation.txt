@@ -4,3 +4,5 @@ filter
 
 augmentation
     pas de rotation/shear dans les augmentations, cela créé du noir et le filtre n'aurait qu'à trier par ça
+
+pas multi concept car raffine pas mais combine (à la limite fromage -> type)
