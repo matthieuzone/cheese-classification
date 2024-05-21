@@ -208,19 +208,102 @@ def continue_training(cfg, id, epoch_init = 0, epoch_end = 20):
 
 @hydra.main(config_path="configs/train", config_name="config")
 def tr(cfg):
-    
+    cfg.dataset_name = "random_prompts_finetuned"
     cfg.model = OmegaConf.load("../../../configs/train/model/dinov2.yaml")
-    cfg.checkpoint_path = "../../../checkpoints/dinov2_simple_prompts.pt"
-    cfg.dataset_name = "simple_prompts"
-    cfg.experiment_name = "dinov2_simple_prompts"
-    continue_training(cfg,'7dmhgvv4', 20, 40)
-    
-    cfg.checkpoint_path = "../../../checkpoints/dinov2_simple_prompts_augmented.pt"
-    cfg.dataset_name = "simple_prompts_augmented"
-    cfg.experiment_name = "dinov2_simple_prompts_augmented"
-    continue_training(cfg,'ejicw7el', 20, 40)
+    cfg.epochs = 10
+
+    try:
+        cfg.experiment_name = "dinov2_0layer_unfrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_0layer_unfrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 0
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_0layer_unfrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_1layer_unfrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_1layer_unfrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 1
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_1layer_unfrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_2layer_unfrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_2layer_unfrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 2
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_2layer_unfrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_0layer_semifrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_0layer_semifrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = True
+        cfg.model.instance.layers = 0
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_0layer_semifrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_1layer_semifrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_1layer_semifrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = True
+        cfg.model.instance.layers = 1
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_1layer_semifrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_2layer_semifrozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_2layer_semifrozen.pt"
+        cfg.model.instance.frozen = False
+        cfg.model.instance.unfreeze_last_layer = True
+        cfg.model.instance.layers = 2
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_2layer_semifrozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_0layer_frozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_0layer_frozen.pt"
+        cfg.model.instance.frozen = True
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 0
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_0layer_frozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_1layer_frozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_1layer_frozen.pt"
+        cfg.model.instance.frozen = True
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 1
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_1layer_frozen failed: {str(e)}")
+
+    try:
+        cfg.experiment_name = "dinov2_2layer_frozen"
+        cfg.checkpoint_path = "../../../checkpoints/dinov2_2layer_frozen.pt"
+        cfg.model.instance.frozen = True
+        cfg.model.instance.unfreeze_last_layer = False
+        cfg.model.instance.layers = 2
+        train(cfg)
+    except Exception as e:
+        print(f"Experiment dinov2_2layer_frozen failed: {str(e)}")
+
 
 
 
 if __name__ == "__main__":
-    gen()
+    tr()

@@ -18,3 +18,4 @@ tests.py
 nohup.out
 submission.csv
 /finetune
+*.zip
