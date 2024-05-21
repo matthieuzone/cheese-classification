@@ -14,6 +14,10 @@ class DataModule:
         batch_size,
         num_workers,
     ):
+        self.train_dataset_path = train_dataset_path
+        self.real_images_val_path = real_images_val_path
+        self.train_transform = train_transform
+        self.val_transform = val_transform
         self.dataset = ImageFolder(train_dataset_path, transform=train_transform)
         self.train_dataset, self.val_dataset = torch.utils.data.random_split(
             self.dataset,
