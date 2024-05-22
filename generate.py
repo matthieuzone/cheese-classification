@@ -14,14 +14,16 @@ def generate(cfg):
         labels = f.readlines()
         labels = [label.strip() for label in labels]
     for label in labels:
+        print(f"Generating images for {label}")
         try:
             dataset_generator.generate(labels)
         except Exception as e:
             print(f"Error generating images for {label}: {e}")
             wandb.log({"error": f"Error generating images for {label}: {e}"})
+        print(f"Generated images for {label}")
 
 
 if __name__ == "__main__":
-    while psutil.pid_exists(1127025):
+    while psutil.pid_exists(1446252):
         time.sleep(60)
     generate()

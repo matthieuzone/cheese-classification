@@ -31,6 +31,8 @@ def main():
     root_data_dir = "dataset/val_finetune"
     roor_output_dir = "dataset/finetune"
     for label in labels:
+            if label in ["BEAUFORT", "BRIE DE MEULIN"]:
+                continue
             args[l  ] = f'--instance_data_dir={root_data_dir}/{label}'
             args[l+1] = f'--instance_prompt=a photo of sks cheese'
             args[l+2] = f'--validation_prompt=A photo of sks cheese on a plate'
