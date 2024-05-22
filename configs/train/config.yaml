@@ -5,9 +5,9 @@ defaults:
   - loss_fn: cross_entropy
   - _self_
 
-epochs: 25
+epochs: 20
 
-dataset_name: blue
+dataset_name: random_prompts_finetuned
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -20,9 +20,9 @@ datamodule:
 
 data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
-checkpoint_path: ${root_dir}/checkpoints/${experiment_name}
+checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
-experiment_name: ${model.name}_${dataset.name}_blue
+experiment_name: ${model.name}_${dataset.name}_goat
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/

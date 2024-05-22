@@ -9,8 +9,30 @@ import easyocr
 import difflib
 from models.dinov2 import DinoV2Finetune
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"]
+goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU", "CABECOU"]
+
+blue.sort()
+goat.sort()
+
+wordmap = {
+    "société": "ROQUEFORT",
+    "Buchette": "BÛCHETTE DE CHÈVRE",
+    "bûche": "BÛCHETTE DE CHÈVRE",
+    "soignon": "BÛCHETTE DE CHÈVRE",
+    "Le rustique": "CAMEMBERT",
+    "préisident": "CAMEMBERT",
+    "poitou": "CHABICHOU",
+    "Berthaud": "EPOISSES",
+    "Greek": "FETA",
+    "Greece": "FETA",
+    "Parmigiano": "PARMESAN",
+}
+
 # Lire la liste des fromages depuis un fichier
-with open('/Users/user/cheese-classification/list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
+with open('list_of_cheese.txt', 'r', encoding='utf-8') as fichier:
     liste_des_fromages = [ligne.strip().lower() for ligne in fichier]
 print(liste_des_fromages)
 # Initialiser le lecteur EasyOCR
@@ -36,17 +58,26 @@ def find_closest_match(word, word_list):
         return None, 0.0
 
 def find_closest_cheese(list_of_cheese, img):
+    matchslus = find_closest_word(list_of_cheese, img)
+    if matchslus:
+        mot, motlu, score = max(matchslus, key=lambda x: x[2])
+        if mot in wordmap:
+            fromage = wordmap[mot]
+        else:
+            fromage = mot.upper()
+        return fromage, motlu, score
+    else:
+        return None, None, 0.0
+
+def find_closest_word(list_of_cheese, img):
     liste_mots = lecture_image(img)
+    words = list(wordmap.keys()) + list_of_cheese
     closest_matches = []
-    for cheese in list_of_cheese:
-        match, score = find_closest_match(cheese, liste_mots)
+    for word in words:
+        match, score = find_closest_match(word, liste_mots)
         if match:
-            closest_matches.append((cheese, match, score))
+            closest_matches.append((word, match, score))
     return closest_matches
-
-
-device = torch.device("cpu")
-
 
 class TestDataset(Dataset):
     def __init__(self, test_dataset_path, test_transform):
@@ -112,44 +143,47 @@ def create_submission(cfg):
 
     print(f"Accuracy on real validation set: {correct / total}")
     """
-if __name__ == "__main__":
-    create_submission()
+
+
+        
+basemodel = DinoV2Finetune(len(liste_des_fromages), True, False, 0)
+checkpoint = torch.load("checkpoints/submitted/epoch_11.pt", map_location=torch.device('cpu'))
+basemodel.load_state_dict(checkpoint)
+basemodel.to(device)
+
+bluemodel = DinoV2Finetune(len(blue), True, False, 1)
+checkpoint = torch.load("checkpoints/DINOV2_blue_blue.pt", map_location=torch.device('cpu'))
+bluemodel.load_state_dict(checkpoint)
+bluemodel.to(device)
+
+goatmodel = DinoV2Finetune(len(goat), True, False, 1)
+checkpoint = torch.load("checkpoints/DINOV2_goat_goat.pt", map_location=torch.device('cpu'))
+goatmodel.load_state_dict(checkpoint)
+goatmodel.to(device)
+
 
 def predict_image(images, image_names=None, cfg = None):
-        
-        basemodel = hydra.utils.instantiate(cfg.model)
-        checkpoint = torch.load(cfg.checkpoint_path, map_location=torch.device('cpu'))
-        basemodel.load_state_dict(checkpoint)
-        basemodel.to(device)
-
-        bluemodel = DinoV2Finetune(len(blue), True, False, 1)
-        checkpoint = torch.load("../../../checkpoints", map_location=torch.device('cpu'))
-        bluemodel.load_state_dict(checkpoint)
-        bluemodel.to(device)
-
-        goatmodel = DinoV2Finetune(len(goat), True, False, 1)
-        checkpoint = torch.load("../../../checkpoints", map_location=torch.device('cpu'))
-        goatmodel.load_state_dict(checkpoint)
-        goatmodel.to(device)
 
         class_names = sorted(os.listdir(cfg.dataset.train_path))
         preds = basemodel(images)
         preds = preds.argmax(1)
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
-        images = images.permute(0, 2, 3, 1)
-        images = images.cpu().numpy()
 
         for i in range(images.shape[0]):
             if preds[i] in blue:
-                preds[i] = blue[bluemodel(images[i])]
-            matchs = find_closest_cheese(liste_des_fromages, cv2.imread("../../../dataset/test/" + image_names[i]+".jpg"))
-            if matchs:
-                fromage, r, score = max(matchs, key=lambda x: x[2])
+                pb = bluemodel(images[i].unsqueeze(0))
+                pb = pb.argmax(1)
+                preds[i] = blue[pb.cpu()]
+            fromage, r, score = find_closest_cheese(liste_des_fromages, cv2.imread("../../../dataset/test/" + image_names[i]+".jpg"))
+            if fromage:
                 if score > 0.6:
-                    preds[i] = fromage.upper()
+                    preds[i] = fromage
             if preds[i] in goat:
-                preds[i] = goat[goatmodel(images[i])]
+                pg = goatmodel(images[i].unsqueeze(0))
+                pg = pg.argmax(1)
+                preds[i] = goat[pg.cpu()]
         return preds
 
-blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"].sort()
-goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU"].sort()
+if __name__ == "__main__":
+    create_submission()
+

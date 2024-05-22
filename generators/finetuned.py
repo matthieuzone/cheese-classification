@@ -37,6 +37,8 @@ class SDXLFineTunedGenerator:
         self.refiner.to("cuda")
         self.generator = torch.Generator("cuda")
         self.active_label = label
+        self.pipe.set_progress_bar_config(disable=True)
+        self.refiner.set_progress_bar_config(disable=True)
 
     def generate(self, prompts, label):
         if label != self.active_label:

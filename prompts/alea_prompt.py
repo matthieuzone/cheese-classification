@@ -29,7 +29,7 @@ def choisir(fichier,repertoire,label):
 #syntaxe_eng_complex = "Create an image of the cheese '" + choisir_fromage('list_of_cheese.txt').lower()+"' "+ choisir_adjectif('adjectifs_eng.txt').lower()+ " and " + choisir_adjectif('adjectifs_eng.txt').lower() + " seen from " +choisir_adjectif('vue_eng.txt')+ ", placed on " +choisir_adjectif('arriere_plan_eng.txt')
 
 def create_prompt(label, repertoire):
-    a = ("a picture of a" if random.random() > 0.5 else "a picture of a few")
+    a = "a picture of a"
     b = " " + choisir('before.txt',repertoire, label).lower()
     b2 = " " + choisir('before.txt',repertoire, label).lower()
     c = " " + label + " cheese"

@@ -1,7 +1,7 @@
 _target_: torchvision.transforms.Compose
 transforms:
-  - _target_: data.new_transforms.ClosestResize
-    max_size: 280
+  - _target_: torchvision.transforms.Resize
+    size: [280, 280]
   - _target_: torchvision.transforms.ToTensor
   - _target_: torchvision.transforms.Normalize
     mean: [0.485, 0.456, 0.406]
