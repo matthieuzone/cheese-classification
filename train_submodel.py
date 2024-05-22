@@ -8,9 +8,25 @@ import hydra
 from torchvision.datasets import ImageFolder
 from torch.utils.data import Subset, DataLoader
 
-cheeses = ["BEAUFORT", "BRIE DE MEULIN"]
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"]
+goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU"]
+
+idc = [7,2,3]
+idb = [33, 29, 12]
+cheeses = blue
+idxo = idb
+idxs = torch.tensor([idxo.index(i) if i in idxo else i for i in range(37)]).to(device)
+
+
+@hydra.main(config_path="configs/train", config_name="config", version_base=None)
 def train(cfg):
+
+    cfg.model.instance.num_classes = len(cheeses)
+    cfg.model
+
     logger = wandb.init(project="challenge_cheese", name=cfg.experiment_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = hydra.utils.instantiate(cfg.model.instance).to(device)
@@ -22,8 +38,9 @@ def train(cfg):
 
     clstokeep = [datamodule.dataset.class_to_idx[cheese] for cheese in cheeses]
 
-    idx = [i for i in range(len(dataset)) if dataset.imgs[i][1] in clstokeep]
-    dataset = Subset(dataset, idx)
+    idx = [i for i in range(len(datamodule.dataset)) if datamodule.dataset.imgs[i][1] in clstokeep]
+    datamodule.dataset.targets = idxs[datamodule.dataset.targets]
+    datamodule.dataset = Subset(datamodule.dataset, idx)
     datamodule.train_dataset, datamodule.val_dataset = torch.utils.data.random_split(
         datamodule.dataset,
         [
@@ -113,3 +130,6 @@ def train(cfg):
         torch.save(model.state_dict(), cfg.checkpoint_path[:-3] + f"/epoch_{epoch}.pt")
     torch.save(model.state_dict(), cfg.checkpoint_path)
     logger.finish()
+
+if __name__ == "__main__":
+    train()

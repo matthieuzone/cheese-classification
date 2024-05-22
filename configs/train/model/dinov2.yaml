@@ -3,6 +3,6 @@ instance:
   num_classes: ${dataset.num_classes}
   frozen: True
   unfreeze_last_layer: False
-  layers: 0
+  layers: 2
 
 name: DINOV2

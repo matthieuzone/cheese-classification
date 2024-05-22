@@ -24,6 +24,4 @@ def generate(cfg):
 
 
 if __name__ == "__main__":
-    while psutil.pid_exists(1446252):
-        time.sleep(60)
     generate()

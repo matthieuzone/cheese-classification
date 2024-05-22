@@ -141,15 +141,15 @@ def predict_image(images, image_names=None, cfg = None):
 
         for i in range(images.shape[0]):
             if preds[i] in blue:
-                preds[i] = bluemodel(images[i])
+                preds[i] = blue[bluemodel(images[i])]
             matchs = find_closest_cheese(liste_des_fromages, cv2.imread("../../../dataset/test/" + image_names[i]+".jpg"))
             if matchs:
                 fromage, r, score = max(matchs, key=lambda x: x[2])
                 if score > 0.6:
                     preds[i] = fromage.upper()
             if preds[i] in goat:
-                preds[i] = goatmodel(images[i])
+                preds[i] = goat[goatmodel(images[i])]
         return preds
 
-blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"]
-goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU"]
+blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"].sort()
+goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU"].sort()

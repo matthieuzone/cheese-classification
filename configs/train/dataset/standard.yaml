@@ -4,9 +4,9 @@ defaults:
   - _self_
 
 name: ${dataset_name}
-num_classes: 37
-batch_size: 128
+num_classes: 3
+batch_size: 32
 num_workers: 8
 train_path: ${data_dir}/train/${dataset_name}
-real_images_val_path: ${data_dir}/val
+real_images_val_path: ${data_dir}/blueval
 test_path: ${data_dir}/test

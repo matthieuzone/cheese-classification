@@ -4,7 +4,7 @@ defaults:
   - _self_
 
 name: simple_prompts
-num_classes: 37
+num_classes: 3
 batch_size: 128
 num_workers: 8
 train_path: ${data_dir}/train/simple_prompts
