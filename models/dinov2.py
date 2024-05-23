@@ -24,6 +24,7 @@ class DinoV2Finetune(nn.Module):
                 *hidlayers,
                 nn.Linear(n, num_classes)
             )
+        print(self)
 
     def forward(self, x):
         x = self.backbone(x)

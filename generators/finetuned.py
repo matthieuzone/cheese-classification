@@ -21,7 +21,7 @@ class SDXLFineTunedGenerator:
 
     def initpipe(self, label):
         print("\nLoading model for", label)
-        lora_model_id = f'matthieuzone/{label}ter'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E")
+        lora_model_id = f'matthieuzone/{label}ter'.replace(" ", "_").replace("Û", "U").replace("È", "E").replace("’", "_").replace("É", "E").replace("Ê", "E")
         card = RepoCard.load(lora_model_id)
         base_model_id = card.data.to_dict()["base_model"]
 
@@ -47,6 +47,7 @@ class SDXLFineTunedGenerator:
         for prompt in prompts:
             assert label in prompt
             prompt = prompt.replace(label, "sks")
+            print(prompt)
         images = self.pipe(
             prompts,
             output_type="latent",
