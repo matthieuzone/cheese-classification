@@ -1,5 +1,5 @@
 defaults:
-  - image_generator: finetuned
+  - image_generator: ipadapt
   - dataset_generator: random_prompts
 #  - augmentor: rand
   - _self_

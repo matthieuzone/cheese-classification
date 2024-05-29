@@ -5,9 +5,9 @@ defaults:
   - loss_fn: cross_entropy
   - _self_
 
-epochs: 5
+epochs: 20
 
-dataset_name: final
+dataset_name: blue
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -22,7 +22,7 @@ data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
-experiment_name: ${model.name}_${dataset.name}_unf2mxedblueaxis
+experiment_name: ${model.name}_${dataset.name}_fullltrain
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/

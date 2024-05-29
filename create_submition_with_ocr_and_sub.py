@@ -147,7 +147,7 @@ def create_submission(cfg):
 
        
 basemodel = DinoV2Finetune(len(liste_des_fromages), True, True, 2)
-checkpoint = torch.load("checkpoints/base.pt", map_location=torch.device('cpu'))
+checkpoint = torch.load("checkpoints/epoch_7.pt", map_location=torch.device('cpu'))
 basemodel.load_state_dict(checkpoint)
 basemodel.to(device)
 

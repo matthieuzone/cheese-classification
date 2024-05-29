@@ -14,7 +14,7 @@ def generate(cfg):
         labels = f.readlines()
         labels = [label.strip() for label in labels]
     a = 35
-    labels = [labels[35]]
+    labels = [labels[7],labels[36],labels[25],labels[15]]
 
     for label in labels:
         print(f"Generating images for {label}")

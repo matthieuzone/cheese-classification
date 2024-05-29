@@ -1,8 +1,8 @@
 import time
 import os
+import subprocess
 
 while os.stat("nohup.out").st_size != 0:
-    f = open("nohup.out", "w")
-    f.close()
+    os.system(">nohup.out")
     time.sleep(10000)
 

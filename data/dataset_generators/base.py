@@ -24,7 +24,7 @@ class DatasetGenerator:
     def generate(self, labels_names):
         labels_prompts = self.create_prompts(labels_names)
         for label, label_prompts in labels_prompts.items():
-            image_id_0 = 340
+            image_id_0 = 0
             for prompt_metadata in label_prompts:
                 num_images_per_prompt = prompt_metadata["num_images"]
                 prompt = [prompt_metadata["prompt"]] * num_images_per_prompt
