@@ -4,6 +4,7 @@ import hydra
 from tqdm import tqdm
 import os
 import torch
+from omegaconf import OmegaConf
 
 
 @hydra.main(config_path="configs/train", config_name="config", version_base=None)

@@ -19,3 +19,5 @@ nohup.out
 submission.csv
 /finetune
 *.zip
+/augment
+ipadapter
