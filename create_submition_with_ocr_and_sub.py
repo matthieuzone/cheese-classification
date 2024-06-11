@@ -12,7 +12,7 @@ from models.dinov2 import DinoV2Finetune
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 blue = ["STILTON", "ROQUEFORT", "FOURME D’AMBERT"]
-goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU", "CABECOU"]
+goat = ["CHÈVRE", "BÛCHETTE DE CHÈVRE", "CHABICHOU"]
 
 blue.sort()
 goat.sort()
@@ -125,7 +125,7 @@ def create_submission(cfg):
                 pd.DataFrame({"id": image_names, "label": preds}),
             ]
         )
-    submission.to_csv(f"{cfg.root_dir}/submission4.csv", index=False)
+    submission.to_csv(f"{cfg.root_dir}/submissionlast.csv", index=False)
     """    
     correct = 0
     total = 0
@@ -145,19 +145,19 @@ def create_submission(cfg):
     """
 
 
-       
+  
 basemodel = DinoV2Finetune(len(liste_des_fromages), True, True, 2)
-checkpoint = torch.load("checkpoints/epoch_7.pt", map_location=torch.device('cpu'))
+checkpoint = torch.load("epoch_11.pt", map_location=torch.device('cpu'))
 basemodel.load_state_dict(checkpoint)
 basemodel.to(device)
-
+"""
 bluemodel = DinoV2Finetune(len(blue), True, False, 2)
 checkpoint = torch.load("checkpoints/blue.pt", map_location=torch.device('cpu'))
 bluemodel.load_state_dict(checkpoint)
 bluemodel.to(device)
 
 """
-
+"""
 goatmodel = DinoV2Finetune(len(goat), True, False, 1)
 checkpoint = torch.load("checkpoints/DINOV2_goat_goat.pt", map_location=torch.device('cpu'))
 goatmodel.load_state_dict(checkpoint)
@@ -172,15 +172,15 @@ def predict_image(images, image_names=None, cfg = None):
         preds = [class_names[pred] for pred in preds.cpu().numpy()]
 
         for i in range(images.shape[0]):
-            
+            """
             if preds[i] in blue:
                 pb = bluemodel(images[i].unsqueeze(0))
                 pb = pb.argmax(1)
                 preds[i] = blue[pb.cpu()]
-            
+            """
             fromage, r, score = find_closest_cheese(liste_des_fromages, cv2.imread("../../../dataset/test/" + image_names[i]+".jpg"))
             if fromage:
-                if score > 0.6:
+                if score > 0.55:
                     preds[i] = fromage
             """
             if preds[i] in goat:

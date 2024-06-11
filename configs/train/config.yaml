@@ -7,7 +7,7 @@ defaults:
 
 epochs: 20
 
-dataset_name: blue
+dataset_name: mix4half
 
 datamodule:
   _target_: data.datamodule.DataModule
@@ -22,7 +22,7 @@ data_dir: ${root_dir}/dataset
 root_dir:  ${hydra:runtime.cwd}
 checkpoint_path: ${root_dir}/checkpoints/${experiment_name}.pt
 
-experiment_name: ${model.name}_${dataset.name}_fullltrain
+experiment_name: ${model.name}_${dataset.name}
 hydra:
   run:
     dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}/
