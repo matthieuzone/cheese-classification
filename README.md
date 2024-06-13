@@ -1,3 +1,13 @@
+### to get results similar to what we had :
+	finetune one sdxl model per label using generators/finetune/finetune.py
+	generate data with generate.py, with random prompts as dataset genrator, and finetuned as generator in config
+	train a model with train
+	repeat last 2 steps and mix datasets to get the best out of each one
+	generate with same config but ipadapt as generator, and again mix with other datasets
+	train a model on this dataset, and submodels, by creating val and training folders only containing the cheeses the submodel has to work on and trainig on these
+	launch create_submission_with_ocr_and_sub.py, with path to model and submodels checkpoints (take the best epoch) in their instanciation.
+
+
 # Cheese Classification challenge
 This codebase allows you to jumpstart the INF473V challenge.
 The goal of this channel is to create a cheese classifier without any real training data.
